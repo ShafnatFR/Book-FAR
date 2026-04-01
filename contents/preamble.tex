@@ -1,0 +1,108 @@
+% ==============================================================================
+% PREAMBLE: TEMPLATE MODUL / BUKU STANDAR
+% ==============================================================================
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[indonesian]{babel} % Support for Bahasa Indonesia
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{mathptmx} % Use Times New Roman style font
+
+% --- Global Style Adjustments ---
+\onehalfspacing % Set line spacing to 1.5
+\setlist[enumerate]{leftmargin=1.5cm, labelsep=0.5cm} % Standardize list margins
+\setlist[itemize]{leftmargin=1.5cm, labelsep=0.5cm}
+\setlength{\parindent}{1cm} % Standard paragraph indentation
+\setlength{\parskip}{0pt}   % No extra space between paragraphs
+\sloppy                      % Prevent overfull hbox in justified text
+
+% --- Geometri Halaman ---
+\geometry{
+    a4paper,
+    top=1.18in,
+    bottom=1.58in,
+    left=1.18in,
+    right=1.18in,
+    headheight=15pt, % Recommended by fancyhdr
+    headsep=0.47in,  % 1.18in - 15pt - 0.5in = 0.47in approx
+    footskip=1.08in  % 1.58in - 0.5in = 1.08in
+}
+
+% --- Header & Footer ---
+\fancypagestyle{plain}{ % Re-define plain style for chapter start pages
+    \fancyhf{}
+    \fancyhead[C]{
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
+            \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
+                \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+            };
+        \end{tikzpicture}
+    }
+    \fancyfoot[R]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[anchor=north west, fill=gray!20, minimum width=\paperwidth, minimum height=1.8cm] at (current page.north west) {};
+        \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
+            \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
+        };
+    \end{tikzpicture}
+}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% --- Styling Bab & Seksi ---
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\color{black}\huge}
+  {\filleft\Large\chapterservicename\ \huge\thechapter}
+  {1ex}
+  {\titlerule\vspace{2ex}\filright}
+  [\vspace{2ex}\titlerule]
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{black}}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{black}}
+  {\thesubsection}{1em}{}
+
+% --- Hyperref Setup ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=black,
+    citecolor=blue,
+    pdftitle={Book FAR - Template Modul},
+}
+
+% --- Custom Commands ---
+\newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
+
+% Prevent hyphenation for Indonesian
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
