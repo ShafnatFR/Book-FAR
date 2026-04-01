@@ -90,6 +90,17 @@
   {\normalfont\large\bfseries\color{black}}
   {\thesubsection}{1em}{}
 
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\color{black}}
+  {\thesubsubsection}{1em}{}
+
+% --- Section Numbering Adjustments ---
+\setcounter{secnumdepth}{3} % Allow numbering for subsubsections
+\setcounter{tocdepth}{3}    % Include subsubsections in TOC
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}} % 1.1
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}} % 1.1.1
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}} % 1.1.1.1
+
 % --- Hyperref Setup ---
 \hypersetup{
     colorlinks=true,

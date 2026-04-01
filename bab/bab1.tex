@@ -51,37 +51,16 @@ Cakupan pengerjaan Tugas Akhir ini sebagai berikut:
 \section{Tahapan Pengerjaan}
 Pengembangan platform Food AI Rescue (FAR) mengadopsi pendekatan pengerjaan yang iteratif, kolaboratif, dan berbasis Minimum Viable Product (MVP). Pelaksanaan program ini dirancang berlangsung selama kurang lebih (waktu pengerjaan) minggu dengan tahapan terstruktur yang berfokus pada adopsi teknologi oleh masyarakat sasaran. Berikut adalah tahapan pengerjaan yang dilakukan:
 \begin{enumerate}
-    \item Fase Inisiasi, Sosialisasi, dan Perancangan Sistem (Minggu 1 - 2)
-    \begin{itemize}
-        \item Sosialisasi dan Koordinasi: Tim melakukan observasi dan koordinasi langsung dengan pengurus Komunitas Halal Bandung (KHB) di Desa Lengkong untuk merumuskan alur program. Pada fase ini juga dilakukan rekrutmen dan pembentukan "Tim Lokal" (operator dan relawan) yang disahkan melalui perangkat desa.
-        \item Perancangan Dokumen Teknis: Tim mendefinisikan spesifikasi kebutuhan sistem melalui penyusunan Software Requirements Specification (SRS), merancang arsitektur sistem (seperti Use Case dan Sequence Diagram), serta menyusun kerangka database dan estimasi biaya.
-    \end{itemize}
-
-    \item Fase Pengembangan Prototype dan Aplikasi (Minggu 3 - 4)
-    \begin{itemize}
-        \item Desain Antarmuka (UI/UX): Menerjemahkan arsitektur sistem menjadi desain antarmuka yang konkret, dengan memastikan aspek keamanan pangan dan kenyamanan navigasi (ergonomics) bagi pengguna.
-        \item Implementasi MVP: Membangun prototype awal platform berbasis Progressive Web App (PWA) menggunakan framework React JS. Tahap ini mencakup implementasi fitur inti pada modul donatur, penerima, relawan, serta Dasbor Admin.
-    \end{itemize}
-
-    \item Fase Uji Coba Internal dan Stabilisasi (Minggu 5 - 8)
-    \begin{itemize}
-        \item Simulasi Role-Playing: Melakukan uji coba operasional end-to-end secara internal menggunakan metode role-playing (berperan sebagai donatur, kurir, dan penerima) untuk menemukan bug dan kebingungan navigasi (UX friction).
-        \item Perbaikan dan Pembuatan SOP: Berdasarkan masukan pengujian, tim melakukan revisi desain aplikasi dan menyusun buku saku panduan pengguna (Guidebook/SOP) bergambar untuk memudahkan mitra non-teknis dalam melakukan pendaftaran dan operasional platform.
-    \end{itemize}
-
-    \item Fase Instalasi Lapangan dan Uji Performa (Minggu 9 - 10)
-    \begin{itemize}
-        \item Instalasi di Lokasi Mitra: Sistem mulai dipasang pada perangkat smartphone atau tablet operasional milik mitra (donatur, relawan, dan penerima) di Desa Lengkong. Sinkronisasi database dan konfigurasi akun multi-role juga dilakukan pada tahap ini.
-        \item Uji Penerimaan Pengguna (User Acceptance Test/UAT): Pengujian performa aplikasi secara komprehensif dengan membiarkan mitra melakukan praktik langsung (mengunggah makanan hingga proses pemindaian QR Code pengambilan) guna memastikan fungsi berjalan tanpa kendala teknis.
-    \end{itemize}
-
-    \item Fase Evaluasi, Optimalisasi, dan Serah Terima (Minggu 11 dan seterusnya)
-    \begin{itemize}
-        \item Fase Operasional: Aplikasi dirilis secara penuh untuk digunakan oleh mitra. Fokus pengembang bergeser dari penulisan kode (coding) menjadi sekadar pemantauan log error (monitoring).
-        \item Pengukuran Dampak: Mengumpulkan data metrik lewat dasbor analitik, seperti total porsi yang diselamatkan dan estimasi pengurangan emisi jejak karbon, untuk menghitung tingkat keberhasilan program dan Social Return on Investment (SROI).
-        \item Serah Terima (BAST): Proses diakhiri dengan penyerahan dokumen Berita Acara Serah Terima (BAST) dan kepemilikan platform kepada mitra desa atau BUMDes (Badan Usaha Milik Desa) untuk dilanjutkan secara mandiri.
-    \end{itemize}
-
+    \item Requirement \\
+Tahap ini melibatkan komunikasi dan observasi yang bertujuan untuk memahami perangkat lunak yang dibutuhkan pengguna, termasuk batasan dan ekspektasi platform Food AI Rescue (FAR) sebagai aplikasi non-komersial. Dalam proses ini, informasi dikumpulkan melalui koordinasi dan identifikasi masalah dengan pihak terkait, seperti Mitra Penyedia (UMKM KHB) dan Mitra Penerima (panti asuhan atau komunitas rentan). Informasi tersebut dianalisis untuk merumuskan kebutuhan sistem logistik pangan yang akurat guna memecahkan masalah "keterhubungan yang terputus" (disconnected link) secara aman dan efisien.
+    \item Design\\
+Pada tahap ini, pengembang membuat perancangan sistem yang membantu mendefinisikan arsitektur platform secara keseluruhan. Proses ini mencakup pembuatan desain antarmuka pengguna (User Interface) yang mengutamakan aspek keamanan pangan dan kenyamanan navigasi (ergonomics), perancangan kerangka database relasional menggunakan MySQL, serta pendefinisian logika integrasi dengan layanan pihak ketiga seperti Application Programming Interface (API) Gemini AI untuk fitur pemindaian kelayakan visual makanan.
+    \item Implementation \\
+Pada tahap ini, sistem mulai dikembangkan dan diterjemahkan ke dalam kode program yang berfokus pada pembuatan Minimum Viable Product (MVP). Platform Food AI Rescue dikembangkan sebagai Progressive Web App (PWA) menggunakan framework Node.js. Setiap modul utama, seperti dasbor donatur, sistem titik radius lokasi, keranjang klaim penerima, hingga fitur inti validasi kecerdasan buatan (Food Guard AI), dibangun secara bertahap untuk kemudian diintegrasikan ke dalam satu kesatuan sistem yang utuh.
+    \item Verification \\
+Pada tahap ini, sistem dilakukan verifikasi dan pengujian operasional end-to-end untuk memastikan apakah sistem memenuhi persyaratan fungsionalitas yang diharapkan. Pengujian dilakukan melalui simulasi Role-Playing (di mana tim berperan secara langsung sebagai donatur, relawan logistik, dan penerima). Proses ini ditujukan untuk mengevaluasi respons integrasi modul, kelancaran verifikasi otomatis AI, akurasi data database, serta mendeteksi adanya kebingungan navigasi (UX friction) atau potensi crash pada aplikasi.
+    \item Maintenance \\
+Ini adalah tahap akhir dari metode pengembangan dalam batasan pengerjaan proyek ini. Setelah perangkat lunak diuji coba, pengembang melakukan pemeliharaan berupa stabilisasi sistem akhir. Tahap pemeliharaan ini berfokus pada perbaikan berbagai kesalahan dan error minor yang ditemukan pada tahap verifikasi sebelumnya, seperti perbaikan bug logika lokasi (peta), penyesuaian tata letak antarmuka, serta penyederhanaan bahasa notifikasi agar aplikasi dinyatakan stabil dan terbebas dari bug utama.
 \end{enumerate}
 
 
