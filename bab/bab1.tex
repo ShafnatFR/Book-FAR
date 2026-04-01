@@ -4,12 +4,85 @@
 
 \chapter{Pendahuluan}
 \label{chapter:pendahuluan}
-
 \section{Latar Belakang}
+Indonesia menghadapi tantangan paradoks ketahanan pangan yang sangat serius. Di satu sisi, Indonesia tercatat menghasilkan timbulan Food Loss and Waste (FLW) yang sangat masif, yakni diperkirakan mencapai 23 hingga 48 juta ton (atau sekitar 115 hingga 184 kilogram per kapita) setiap tahunnya (Bappenas, 2021). Angka ini menjadikan Indonesia sebagai salah satu negara penghasil limbah makanan terbesar di dunia (Waluyo \& Kharisma, 2023). Ironisnya, di tengah tingginya angka pemborosan ini, Indonesia masih berhadapan dengan masalah kerawanan pangan dan malnutrisi, termasuk tingginya prevalensi balita stunting yang mencapai 21,6\% pada tahun 2022 (Lybaws et al., 2025). Padahal, secara kumulatif, jumlah makanan yang hilang dan terbuang tersebut memiliki kandungan nutrisi energi yang cukup untuk memberi makan 61 hingga 125 juta orang, atau setara dengan 29\% hingga 47\% dari total populasi Indonesia (Bappenas, 2021).\\
+\\
+Timbulan limbah makanan ini tidak hanya memperburuk kondisi sosial, tetapi juga memberikan dampak yang merugikan secara ekonomi dan ekologis. Secara ekonomi, FLW di Indonesia menyebabkan kerugian yang diperkirakan mencapai Rp 213 triliun hingga Rp 551 triliun per tahun, angka yang setara dengan 4\% hingga 5\% dari total Produk Domestik Bruto (PDB) nasional (Bappenas, 2021; Taufiqi et al., 2025),. Dari perspektif lingkungan, sisa makanan secara konsisten mendominasi komposisi sampah nasional, yakni mencapai lebih dari 40\% dari total timbulan sampah (Waluyo \& Kharisma, 2023). Akumulasi sampah organik yang membusuk ini menyumbang emisi Gas Rumah Kaca (GRK) sebesar 1.702,9 Mt CO2-eq selama kurun waktu 20 tahun, yang merepresentasikan 7,29\% dari total emisi GRK Indonesia (Bappenas, 2021).\\
+\\
+Titik kritis penyumbang limbah makanan terbesar di Indonesia berada pada tahap konsumsi, baik yang bersumber dari rumah tangga maupun dari sektor Hospitality, Restaurant, dan Cafe atau HORECA (Bappenas, 2021). Praktik pemborosan di sektor penyedia makanan sering kali dipicu oleh ketiadaan sistem distribusi dan regulasi manajemen sisa makanan yang memadai (Bappenas, 2021). Sebenarnya, terdapat keinginan dari berbagai pihak HORECA untuk menyalurkan makanan surplus mereka kepada pihak yang membutuhkan, namun niat ini terhambat oleh berbagai kekhawatiran operasional (Bappenas, 2021). Pelaku usaha khawatir makanan donasi tersebut disalahgunakan atau diperjualbelikan kembali oleh oknum tidak bertanggung jawab (Bappenas, 2021). Lebih jauh lagi, ketiadaan standar penanganan memunculkan ketakutan dan penghindaran liabilitas akan ancaman tuntutan hukum apabila terjadi kasus keracunan makanan akibat penurunan kualitas pangan saat didistribusikan (Bappenas, 2021; Bachtiar et al., 2024),.\\
+\\
+Untuk memecahkan kebuntuan "keterhubungan yang terputus" antara penyedia surplus pangan dan masyarakat rentan, serta sejalan dengan komitmen Indonesia terhadap pencapaian Sustainable Development Goals (SDGs) target 12.3 tentang pengurangan food waste (Bappenas, 2021; Taufiqi et al., 2025),, diperlukan sebuah intervensi teknologi agregator digital. Oleh karena itu, penelitian ini mengusulkan pengembangan platform Food AI Rescue (FAR). Sistem ini hadir untuk menyediakan fasilitas pencocokan logistik donasi pangan secara real-time yang dilengkapi dengan fitur verifikasi kelayakan visual makanan menggunakan kecerdasan buatan (Computer Vision). Melalui sistem penjamin mutu dan transparansi pelaporan ini, keraguan pelaku usaha untuk menyalurkan makanan dapat diatasi, sehingga beban limbah makanan dapat diubah menjadi nilai kemanfaatan sosial yang inklusif dan terukur.\\
+
+% Rumusan Masalah
 \section{Rumusan Masalah}
+Berdasarkan latar belakang sebagaimana diuraikan di atas, maka dapat diidentifikasi permasalahan sebagai berikut:
+\begin{enumerate}
+    \item Bagaimana merancang sebuah platform agregator digital (Food AI Rescue) yang mampu memecahkan masalah "keterhubungan yang terputus" dengan mengintegrasikan logistik donasi pangan antara penyedia (HORECA) dan masyarakat rentan secara real-time?
+    \item Bagaimana mengimplementasikan teknologi kecerdasan buatan (Computer Vision) pada platform untuk memverifikasi kelayakan visual makanan secara otomatis, guna memitigasi kekhawatiran liabilitas (tuntutan hukum/keracunan) dari para pelaku usaha?
+    \item Bagaimana membangun sistem manajemen pelaporan yang transparan dan terukur untuk memastikan makanan donasi tepat sasaran dan mencegah terjadinya praktik penyalahgunaan oleh oknum yang tidak bertanggung jawab?
+\end{enumerate}
+
+% Tujuan
 \section{Tujuan}
+Berdasarkan identifikasi masalah diatas, maka dapat dirumuskan tujuan dari penulisan proyek akhir ini adalah sebagai berikut:
+\begin{enumerate}
+    \item Merancang dan membangun platform agregator logistik digital (Food AI Rescue) berbasis Progressive Web App (PWA yang berfungsi sebagai jembatan distribusi real-time (menggunakan algoritma AI Matching \& Allocation) untuk memecahkan masalah "keterhubungan yang terputus" antara penyedia surplus pangan halal dan komunitas rentan.
+    \item Mengimplementasikan teknologi kecerdasan buatan (Computer Vision) melalui fitur AI Quality Verification guna menganalisis dan memvalidasi kelayakan visual serta kebersihan foto makanan sebelum didistribusikan, sehingga mampu memberikan jaminan mutu dan menekan kekhawatiran liabilitas atau risiko keracunan dari pihak pelaku usaha.
+    \item Membangun dasbor sistem pelaporan dan analitik dampak (AI Impact Analytics) yang transparan dan terukur untuk memantau rekam jejak donasi secara digital (traceability), mencegah praktik penyalahgunaan distribusi (double-claim), serta menyajikan data keberhasilan seperti estimasi pengurangan jejak karbon (CO$_2$) dan nilai SROI (Social Return on Investment) bagi para mitra donatur.
+\end{enumerate}
+
+% Cangkupan pengerjaan
 \section{Cakupan Pengerjaan}
+Cakupan pengerjaan Tugas Akhir ini sebagai berikut:
+\begin{enumerate}
+    \item Ruang Lingkup Aplikasi: Sistem yang dibangun adalah aplikasi berbasis web (Progressive Web App/PWA) yang berfungsi khusus sebagai agregator logistik untuk memfasilitasi donasi makanan surplus halal yang masih layak konsumsi secara gratis atau non-komersial
+    \item Batasan Pengguna (Aktor): Sistem membatasi interaksi pada lima peran pengguna, yaitu: Mitra Penyedia/Donatur (mengunggah stok), Mitra Penerima (mencari dan mengklaim makanan), Relawan (armada logistik sosial pengantar makanan), Admin Pengelola (memverifikasi pengguna dan memantau dampak), serta Super Admin (pemeliharaan teknis)
+    \item Batasan Fitur dan Teknologi Utama: Pengembangan sistem dibatasi pada tiga modul kecerdasan buatan utama:
+    \begin{enumerate}
+        \item AI Matching \& Allocation: Pencocokan stok makanan dengan penerima terdekat menggunakan pelacakan radius GPS.
+        \item AI Quality \& Halal Verification: Integrasi dengan Application Programming Interface (API) Gemini 3 Engine untuk memindai foto makanan (menggunakan kamera perangkat) guna memberikan prediksi kelayakan visual, kebersihan, dan estimasi kehalalan.
+        \item AI Impact Analytics: Dasbor pelaporan yang mencatat riwayat transaksi untuk mengkalkulasi dampak sosial (Social Return on Investment/SROI) dan estimasi reduksi jejak karbon (CO$_2$).
+    \end{enumerate}
+    \item Batasan Lingkup Geografis dan Operasional: Pengujian dan implementasi sistem (pilot project) dibatasi di wilayah Desa Lengkong, Kecamatan Bojongsoang, Kabupaten Bandung. Sistem juga tidak menyediakan armada logistik komersial sendiri, melainkan hanya memfasilitasi koordinasi penjemputan (diambil langsung oleh penerima atau diantarkan oleh Relawan lokal).
+    \item Batasan Teknis dan Keamanan AI: Aplikasi dirancang dengan teknologi Front-End React JS dan Back-End Node/PHP (REST API) menggunakan database MySQL. Aplikasi mewajibkan adanya koneksi internet aktif, akses lokasi (GPS), dan izin kamera keras. Analisis kualitas makanan oleh AI (Food Guard AI) hanya bertindak sebagai bantuan verifikasi visual awal, sedangkan validasi akhir keamanan pangan tetap menjadi tanggung jawab manusia (Admin atau Mitra Penerima) sebelum makanan dikonsumsi.
+\end{enumerate}
+
+% Tahapan pengerjaan
 \section{Tahapan Pengerjaan}
+Pengembangan platform Food AI Rescue (FAR) mengadopsi pendekatan pengerjaan yang iteratif, kolaboratif, dan berbasis Minimum Viable Product (MVP). Pelaksanaan program ini dirancang berlangsung selama kurang lebih (waktu pengerjaan) minggu dengan tahapan terstruktur yang berfokus pada adopsi teknologi oleh masyarakat sasaran. Berikut adalah tahapan pengerjaan yang dilakukan:
+\begin{enumerate}
+    \item Fase Inisiasi, Sosialisasi, dan Perancangan Sistem (Minggu 1 - 2)
+    \begin{itemize}
+        \item Sosialisasi dan Koordinasi: Tim melakukan observasi dan koordinasi langsung dengan pengurus Komunitas Halal Bandung (KHB) di Desa Lengkong untuk merumuskan alur program. Pada fase ini juga dilakukan rekrutmen dan pembentukan "Tim Lokal" (operator dan relawan) yang disahkan melalui perangkat desa.
+        \item Perancangan Dokumen Teknis: Tim mendefinisikan spesifikasi kebutuhan sistem melalui penyusunan Software Requirements Specification (SRS), merancang arsitektur sistem (seperti Use Case dan Sequence Diagram), serta menyusun kerangka database dan estimasi biaya.
+    \end{itemize}
+
+    \item Fase Pengembangan Prototype dan Aplikasi (Minggu 3 - 4)
+    \begin{itemize}
+        \item Desain Antarmuka (UI/UX): Menerjemahkan arsitektur sistem menjadi desain antarmuka yang konkret, dengan memastikan aspek keamanan pangan dan kenyamanan navigasi (ergonomics) bagi pengguna.
+        \item Implementasi MVP: Membangun prototype awal platform berbasis Progressive Web App (PWA) menggunakan framework React JS. Tahap ini mencakup implementasi fitur inti pada modul donatur, penerima, relawan, serta Dasbor Admin.
+    \end{itemize}
+
+    \item Fase Uji Coba Internal dan Stabilisasi (Minggu 5 - 8)
+    \begin{itemize}
+        \item Simulasi Role-Playing: Melakukan uji coba operasional end-to-end secara internal menggunakan metode role-playing (berperan sebagai donatur, kurir, dan penerima) untuk menemukan bug dan kebingungan navigasi (UX friction).
+        \item Perbaikan dan Pembuatan SOP: Berdasarkan masukan pengujian, tim melakukan revisi desain aplikasi dan menyusun buku saku panduan pengguna (Guidebook/SOP) bergambar untuk memudahkan mitra non-teknis dalam melakukan pendaftaran dan operasional platform.
+    \end{itemize}
+
+    \item Fase Instalasi Lapangan dan Uji Performa (Minggu 9 - 10)
+    \begin{itemize}
+        \item Instalasi di Lokasi Mitra: Sistem mulai dipasang pada perangkat smartphone atau tablet operasional milik mitra (donatur, relawan, dan penerima) di Desa Lengkong. Sinkronisasi database dan konfigurasi akun multi-role juga dilakukan pada tahap ini.
+        \item Uji Penerimaan Pengguna (User Acceptance Test/UAT): Pengujian performa aplikasi secara komprehensif dengan membiarkan mitra melakukan praktik langsung (mengunggah makanan hingga proses pemindaian QR Code pengambilan) guna memastikan fungsi berjalan tanpa kendala teknis.
+    \end{itemize}
+
+    \item Fase Evaluasi, Optimalisasi, dan Serah Terima (Minggu 11 dan seterusnya)
+    \begin{itemize}
+        \item Fase Operasional: Aplikasi dirilis secara penuh untuk digunakan oleh mitra. Fokus pengembang bergeser dari penulisan kode (coding) menjadi sekadar pemantauan log error (monitoring).
+        \item Pengukuran Dampak: Mengumpulkan data metrik lewat dasbor analitik, seperti total porsi yang diselamatkan dan estimasi pengurangan emisi jejak karbon, untuk menghitung tingkat keberhasilan program dan Social Return on Investment (SROI).
+        \item Serah Terima (BAST): Proses diakhiri dengan penyerahan dokumen Berita Acara Serah Terima (BAST) dan kepemilikan platform kepada mitra desa atau BUMDes (Badan Usaha Milik Desa) untuk dilanjutkan secara mandiri.
+    \end{itemize}
+
+\end{enumerate}
 
 
 % Halaman ini adalah contoh penggunaan template buku standar LaTeX untuk proyek \textbf{Book FAR}. Struktur template ini dirancang sedemikian rupa agar mudah dikelola dan memenuhi standar estetika modern Telkom University.

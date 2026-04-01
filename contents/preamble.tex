@@ -50,7 +50,7 @@
     \fancyhf{}
     \fancyhead[C]{
         \begin{tikzpicture}[remember picture,overlay]
-            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
+            \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
             \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
                 \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
             };
@@ -64,7 +64,7 @@
 \fancyhf{}
 \fancyhead[C]{
     \begin{tikzpicture}[remember picture,overlay]
-        \node[anchor=north west, fill=gray!20, minimum width=\paperwidth, minimum height=1.8cm] at (current page.north west) {};
+        \node[anchor=north west, fill=gray!20, minimum width=\paperwidth-1cm, minimum height=1.8cm, xshift=1cm] at (current page.north west) {};
         \node[anchor=east] at ([xshift=-1.18in, yshift=-1.0cm]current page.north east) {
             \includegraphics[height=1.2cm]{image/Logo_Universitas_Telkom_Horizontal.png}
         };
@@ -76,11 +76,11 @@
 
 % --- Styling Bab & Seksi ---
 \titleformat{\chapter}[display]
-  {\normalfont\bfseries\color{black}\huge}
-  {\filleft\Large\chapterservicename\ \huge\thechapter}
+  {\normalfont\bfseries\centering}
+  {\Large\chapterservicename\ \Roman{chapter}}
   {1ex}
-  {\titlerule\vspace{2ex}\filright}
-  [\vspace{2ex}\titlerule]
+  {\huge\MakeUppercase}
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
 
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{black}}

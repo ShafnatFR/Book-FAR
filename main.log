@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  1 APR 2026 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  1 APR 2026 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,21 +746,166 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 
 ] (./bab/bab1.tex
 Bab 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 8--15
+\T1/ptm/m/n/12 na-sio-nal, yak-ni men-ca-pai le-bih da-ri 40% da-ri to-tal tim-bul-an sam-pah (Wa-lu-yo &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 8--15
+\T1/ptm/m/n/12 Res-ta-u-rant, dan Ca-fe atau HO-RE-CA (Bap-pe-nas, 2021). Prak-tik pem-bo-ros-an di
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 8--15
+\T1/ptm/m/n/12 sek-tor pe-nye-dia ma-kan-an se-ring ka-li di-pi-cu oleh ke-ti-a-da-an sis-tem dis-tri-bu-si dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--15
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 15.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+ [1
+
+]
+Underfull \hbox (badness 1226) in paragraph at lines 20--21
+\T1/ptm/m/n/12 meng-in-te-gra-sik-an lo-gis-tik do-na-si pa-ngan an-ta-ra pe-nye-dia (HO-RE-CA) dan
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 21--22
+[]\T1/ptm/m/n/12 Bagaimana meng-im-ple-men-ta-sik-an tek-no-lo-gi ke-ce-rdas-an bu-at-an (Com-pu-ter
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 22--23
+\T1/ptm/m/n/12 ter-u-kur un-tuk me-mas-tik-an ma-kan-an do-na-si te-pat sa-sar-an dan men-ce-gah
+ []
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 23.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+[2]
+Underfull \hbox (badness 1484) in paragraph at lines 29--30
+[]\T1/ptm/m/n/12 Merancang dan mem-ba-ngun pla-tform agre-ga-tor lo-gis-tik di-gi-tal (Fo-od AI
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 39--40
+[]\T1/ptm/m/n/12 Batasan Peng-gu-na (Ak-tor): Sis-tem mem-ba-ta-si in-te-rak-si pa-da li-ma per-an
+ []
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 40.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+[3]
+Underfull \hbox (badness 2469) in paragraph at lines 42--43
+[]\T1/ptm/m/n/12 AI Ma-tching & Allo-ca-tion: Pen-co-cok-an stok ma-kan-an de-ngan
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 43--44
+[]\T1/ptm/m/n/12 AI Qu-a-li-ty & Ha-lal Ve-ri-fi-ca-tion: In-te-gra-si de-ngan Ap-pli-ca-tion
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 44--45
+[]\T1/ptm/m/n/12 AI Im-pa-ct Ana-lyti-cs: Das-bor pe-la-por-an yang men-ca-tat ri-wa-yat
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 44--45
+\T1/ptm/m/n/12 tran-sak-si un-tuk meng-kal-ku-la-si dam-pak so-si-al (So-ci-al Re-turn on
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 46--47
+\T1/ptm/m/n/12 sen-di-ri, me-la-ink-an ha-nya me-mfa-si-li-ta-si ko-o-rdi-na-si pen-jem-put-an (di-am-bil
+ []
+
+
+Underfull \hbox (badness 1867) in paragraph at lines 47--48
+[]\T1/ptm/m/n/12 Batasan Tek-nis dan Ke-a-man-an AI: Apli-ka-si di-ran-cang de-ngan tek-no-lo-gi
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 47--48
+\T1/ptm/m/n/12 Front-End Re-a-ct JS dan Back-End No-de/PHP (REST API) meng-gu-nak-an
+ []
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 54.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+[4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 56.
+ (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 1184) in paragraph at lines 56--57
+\T1/ptm/m/n/12 Leng-kong un-tuk me-ru-musk-an alur pro-gram. Pa-da fa-se ini ju-ga
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 57--58
+[]\T1/ptm/m/n/12 Perancangan Do-ku-men Tek-nis: Tim men-de-fi-ni-sik-an spe-si-fi-ka-si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+\T1/ptm/m/n/12 ke-bu-tuh-an sis-tem me-la-lui pe-nyu-sun-an Sof-twa-re Re-qu-i-re-men-ts
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 69--70
+\T1/ptm/m/n/12 peng-gu-na (Gu-i-de-bo-ok/SOP) ber-gam-bar un-tuk me-mu-dahk-an mi-tra
+ []
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 75.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+[5]
+Underfull \hbox (badness 1478) in paragraph at lines 75--76
+\T1/ptm/m/n/12 per-for-ma apli-ka-si se-ca-ra komp-re-hen-sif de-ngan mem-bi-ark-an mi-tra
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 81--82
+[]\T1/ptm/m/n/12 Pengukuran Dam-pak: Meng-um-pulk-an da-ta me-trik le-wat das-bor
+ []
+
 )
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
 Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 24.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [1
-
-]
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 24.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [2
-
-] (./main.aux)
+ [6] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -769,18 +914,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B361602B6EE25AFE3FC0DF2E9312E6AE;1231.
  ) 
 Here is how much of TeX's memory you used:
- 23893 strings out of 467537
- 441693 string characters out of 5423703
- 851101 words of memory out of 5000000
- 52373 multiletter control sequences out of 15000+600000
- 668111 words of font info for 82 fonts, out of 8000000 for 9000
+ 23960 strings out of 467537
+ 442593 string characters out of 5423703
+ 854326 words of memory out of 5000000
+ 52410 multiletter control sequences out of 15000+600000
+ 670133 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,17n,97p,463b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,1051b,1068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (14 pages, 625492 bytes).
+Output written on main.pdf (18 pages, 640062 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 

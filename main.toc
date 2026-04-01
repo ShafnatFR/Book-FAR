@@ -6,7 +6,7 @@
 \contentsline {section}{ABSTRACT}{viii}{Item.11}%
 \contentsline {chapter}{\numberline {1}Pendahuluan}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Rumusan Masalah}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Tujuan}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Cakupan Pengerjaan}{1}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Tahapan Pengerjaan}{1}{section.1.5}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Cakupan Pengerjaan}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Tahapan Pengerjaan}{4}{section.1.5}%
