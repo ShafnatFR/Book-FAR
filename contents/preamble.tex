@@ -114,6 +114,20 @@
 % --- Custom Commands ---
 \newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
 
+% --- Definisi Daftar Lampiran ---
+\newcommand{\listappendixname}{Daftar Lampiran}
+\newlistof{lampiran}{lop}{\listappendixname}
+\renewcommand{\cftloptitlefont}{\huge\bfseries}
+\renewcommand{\cftafterloptitle}{}
+\setlength{\cftbeforeloptitleskip}{0pt}
+\setlength{\cftafterloptitleskip}{0.5cm}
+
+% Biar Daftar Lampiran muncul di TOC
+\newcommand{\addlampiran}[1]{%
+  \refstepcounter{lampiran}%
+  \addcontentsline{lop}{lampiran}{\protect\numberline{Lampiran \thelampiran}#1}%
+}
+
 % Prevent hyphenation for Indonesian
 \hyphenpenalty=10000
 \exhyphenpenalty=10000

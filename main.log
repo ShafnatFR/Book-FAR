@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  1 APR 2026 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.28)  2 APR 2026 21:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Tel-U/JagoAI/Book FAR/main.tex"
-(c:/Tel-U/JagoAI/Book FAR/main.tex
+**"c:/Tel-U/JagoAI/Book FAR - Copy/main.tex"
+(c:/Tel-U/JagoAI/Book FAR - Copy/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (c:/texlive/2025/texmf-dist/tex/latex/base/book.cls
@@ -552,13 +552,20 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Info: Redefining \hbar on input line 50.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 112.
+\c@lampiran=\count335
+\cftbeforelampiranskip=\skip105
+\cftlampiranindent=\skip106
+\cftlampirannumwidth=\skip107
+\c@lopdepth=\count336
+\cftbeforeloptitleskip=\skip108
+\cftafterloptitleskip=\skip109
 )
 LaTeX Font Info:    Trying to load font information for T1+ptm on input line 10.
  (c:/texlive/2025/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count335
+\l__color_backend_stack_int=\count337
 ) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -588,7 +595,7 @@ LaTeX Font Info:    ... okay on input line 10.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(85.27806pt, 426.95175pt, 85.27806pt)
 * v-part:(T,H,B)=(85.27806pt, 645.58206pt, 114.18672pt)
 * \paperwidth=597.50787pt
@@ -602,7 +609,7 @@ LaTeX Font Info:    ... okay on input line 10.
 * \headsep=33.96698pt
 * \topskip=12.0pt
 * \footskip=78.05173pt
-* \marginparwidth=88.0pt
+* \marginparwidth=38.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -610,23 +617,23 @@ LaTeX Font Info:    ... okay on input line 10.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count338
 \scratchdimen=\dimen304
 \scratchbox=\box68
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count339
+\nofMParguments=\count340
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count339
+\MPscratchCnt=\count341
 \MPscratchDim=\dimen305
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
 \everyMPtoPDFconversion=\toks39
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -644,258 +651,135 @@ Package hyperref Info: Link coloring ON on input line 10.
 
 \big@size=\dimen306
  (./contents/frontmatter.tex
-<image/logo.png, id=85, 520.94624pt x 592.2125pt>
+<image/logo.png, id=100, 520.94624pt x 592.2125pt>
 File: image/logo.png Graphic file (type png)
 <use image/logo.png>
-Package pdftex.def Info: image/logo.png  used on input line 16.
+Package pdftex.def Info: image/logo.png  used on input line 18.
 (pdftex.def)             Requested size: 213.47588pt x 242.68217pt.
  [1
 
 
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./image/logo.png>] [2] (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <./image/logo.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \newpage
+              [1] (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd) (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
 File: image/signature.png Graphic file (type png)
 <use image/signature.png>
-Package pdftex.def Info: image/signature.png  used on input line 68.
+Package pdftex.def Info: image/signature.png  used on input line 76.
 (pdftex.def)             Requested size: 63.79187pt x 42.67912pt.
-<image/Logo_Universitas_Telkom_Horizontal.png, id=100, 1195.1049pt x 529.0164pt>
+<image/Logo_Universitas_Telkom_Horizontal.png, id=115, 1195.1049pt x 529.0164pt>
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 84.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 92.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [3 <./image/Logo_Universitas_Telkom_Horizontal.png> <./image/signature.png>]
-Underfull \hbox (badness 2334) in paragraph at lines 93--94
-\T1/ptm/m/n/12 langkah-langkah yang sem-pat ra-gu, na-mun se-la-lu ada doa dan du-kung-an yang
- []
-
-
-Underfull \hbox (badness 1033) in paragraph at lines 100--101
+ [2 <./image/Logo_Universitas_Telkom_Horizontal.png> <./image/signature.png>]
+Underfull \hbox (badness 1033) in paragraph at lines 108--109
 []\T1/ptm/m/n/12 Semua pi-hak yang de-ngan ca-ra-nya masing-masing mem-be-ri war-na da-lam
  []
 
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 107.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[4]
 File: image/signature.png Graphic file (type png)
 <use image/signature.png>
-Package pdftex.def Info: image/signature.png  used on input line 114.
+Package pdftex.def Info: image/signature.png  used on input line 122.
 (pdftex.def)             Requested size: 63.79187pt x 42.67912pt.
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 122.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 130.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [5]
+[3]
 File: image/signature.png Graphic file (type png)
 <use image/signature.png>
-Package pdftex.def Info: image/signature.png  used on input line 160.
+Package pdftex.def Info: image/signature.png  used on input line 168.
 (pdftex.def)             Requested size: 63.79187pt x 42.67912pt.
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 189.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 197.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
-[]\T1/ptm/b/n/17.28 ABSTRAK|
+ [4]
+Underfull \hbox (badness 1748) in paragraph at lines 209--213
+\T1/ptm/m/n/12 un-tuk meng-e-va-lu-a-si ke-lan-car-an fung-sio-na-li-tas apli-ka-si, aku-ra-si ve-ri-fi-ka-si AI, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--213
+
  []
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 206.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 215.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]\T1/ptm/b/n/17.28 ABSTRACT|
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
+
  []
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 222.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 232.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[8] (./main.toc)
+[6] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 224.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 234.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [9] (./main.lof)
+ [7] (./main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 226.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 236.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [10] (./main.lot)
+ [8] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 228.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 238.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [11])
+ [9] (./main.lop)
+\tf@lop=\write8
+\openout8 = `main.lop'.
+
+)
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
 Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 17.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [12
-
-] (./bab/bab1.tex
+ [10] (./bab/bab1.tex
 Bab 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 8--15
-\T1/ptm/m/n/12 na-sio-nal, yak-ni men-ca-pai le-bih da-ri 40% da-ri to-tal tim-bul-an sam-pah (Wa-lu-yo &
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \hbox (badness 1264) in paragraph at lines 8--15
-\T1/ptm/m/n/12 Res-ta-u-rant, dan Ca-fe atau HO-RE-CA (Bap-pe-nas, 2021). Prak-tik pem-bo-ros-an di
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 8--15
-\T1/ptm/m/n/12 sek-tor pe-nye-dia ma-kan-an se-ring ka-li di-pi-cu oleh ke-ti-a-da-an sis-tem dis-tri-bu-si dan
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--15
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 15.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [1
-
-]
-Underfull \hbox (badness 1226) in paragraph at lines 20--21
-\T1/ptm/m/n/12 meng-in-te-gra-sik-an lo-gis-tik do-na-si pa-ngan an-ta-ra pe-nye-dia (HO-RE-CA) dan
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 21--22
-[]\T1/ptm/m/n/12 Bagaimana meng-im-ple-men-ta-sik-an tek-no-lo-gi ke-ce-rdas-an bu-at-an (Com-pu-ter
- []
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 22--23
-\T1/ptm/m/n/12 ter-u-kur un-tuk me-mas-tik-an ma-kan-an do-na-si te-pat sa-sar-an dan men-ce-gah
- []
-
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 23.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[2]
-Underfull \hbox (badness 1484) in paragraph at lines 29--30
-[]\T1/ptm/m/n/12 Merancang dan mem-ba-ngun pla-tform agre-ga-tor lo-gis-tik di-gi-tal (Fo-od AI
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 39--40
-[]\T1/ptm/m/n/12 Batasan Peng-gu-na (Ak-tor): Sis-tem mem-ba-ta-si in-te-rak-si pa-da li-ma per-an
- []
-
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 40.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[3]
-Underfull \hbox (badness 2469) in paragraph at lines 42--43
-[]\T1/ptm/m/n/12 AI Ma-tching & Allo-ca-tion: Pen-co-cok-an stok ma-kan-an de-ngan
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 43--44
-[]\T1/ptm/m/n/12 AI Qu-a-li-ty & Ha-lal Ve-ri-fi-ca-tion: In-te-gra-si de-ngan Ap-pli-ca-tion
- []
-
-
-Underfull \hbox (badness 2150) in paragraph at lines 44--45
-[]\T1/ptm/m/n/12 AI Im-pa-ct Ana-lyti-cs: Das-bor pe-la-por-an yang men-ca-tat ri-wa-yat
- []
-
-
-Underfull \hbox (badness 2452) in paragraph at lines 44--45
-\T1/ptm/m/n/12 tran-sak-si un-tuk meng-kal-ku-la-si dam-pak so-si-al (So-ci-al Re-turn on
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 46--47
-\T1/ptm/m/n/12 sen-di-ri, me-la-ink-an ha-nya me-mfa-si-li-ta-si ko-o-rdi-na-si pen-jem-put-an (di-am-bil
- []
-
-
-Underfull \hbox (badness 1867) in paragraph at lines 47--48
-[]\T1/ptm/m/n/12 Batasan Tek-nis dan Ke-a-man-an AI: Apli-ka-si di-ran-cang de-ngan tek-no-lo-gi
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 47--48
-\T1/ptm/m/n/12 Front-End Re-a-ct JS dan Back-End No-de/PHP (REST API) meng-gu-nak-an
- []
-
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 54.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[4]
-Underfull \hbox (badness 3128) in paragraph at lines 56--58
-\T1/ptm/m/n/12 in-te-gra-si de-ngan la-yan-an pi-hak ke-ti-ga se-per-ti Ap-pli-ca-tion Pro-gram-ming
- []
-
-
-Underfull \hbox (badness 3525) in paragraph at lines 60--62
-\T1/ptm/m/n/12 ve-ri-fi-ka-si oto-ma-tis AI, aku-ra-si da-ta da-ta-ba-se, ser-ta men-de-tek-si ada-nya
- []
-
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 62.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
-[5]) (./bab/bab2.tex
+) (./bab/bab2.tex
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
 Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 1.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [6]
+ [1
+
+
+]
 Bab 2.
+) (./bab/bab3.tex
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 1.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+ [2
+
+]
+Bab 3.
 )
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 25.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 26.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [7
-
-]
-File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
-<use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 25.
-(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
- [8
+ [3
 
 ] (./main.aux)
  ***********
@@ -903,21 +787,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E349BC2A5AA6864E23ACB1789679840E;3106.
+(rerunfilecheck)             Checksum: 835BE2B5437F1013D98C37275C7A4A89;3465.
  ) 
 Here is how much of TeX's memory you used:
- 23965 strings out of 467537
- 442631 string characters out of 5423703
- 854504 words of memory out of 5000000
- 52405 multiletter control sequences out of 15000+600000
- 669819 words of font info for 85 fonts, out of 8000000 for 9000
+ 23984 strings out of 467537
+ 443118 string characters out of 5423703
+ 854016 words of memory out of 5000000
+ 52444 multiletter control sequences out of 15000+600000
+ 668111 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,17n,97p,1051b,963s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,17n,97p,2036b,888s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (20 pages, 643100 bytes).
+Output written on main.pdf (14 pages, 634843 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 226 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 220 words of extra memory for PDF output out of 10000 (max. 10000000)
 
