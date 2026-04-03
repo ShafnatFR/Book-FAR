@@ -19,3 +19,16 @@
 \contentsline {section}{\numberline {2.4}Kinerja Sistem }{7}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Gamification}{7}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Hubungan Gamification dengan Sistem Yumasak }{7}{section.2.6}%
+\contentsline {chapter}{\numberline {3}PEMODELAN DAN PERANCANGAN}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Arsitektur Sistem}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Pemodelan Sistem dan Data}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Perancangan Antarmuka Pengguna}{9}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Kebutuhan Perangkat Keras dan Perangkat Lunak}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Pengembangan Sistem}{9}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Implementasi Sistem}{9}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTASI DAN PENGUJIAN}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Implementasi}{11}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Pengujian}{11}{section.4.2}%
+\contentsline {chapter}{\numberline {5}PENUTUP}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Kesimpulan}{13}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Saran}{13}{section.5.2}%
