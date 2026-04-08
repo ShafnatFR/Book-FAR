@@ -1,10 +1,78 @@
 \chapter{PERSYARATAN SISTEM }
+
 \label{chapter:PERSYARATAN SISTEM}
-\section{Deskripsi Instansi/Pengguna}
-\section{Gambaran Sistem Saat Ini (atau Produk)}
-\subsection{Proses Bisnis Sistem Saat Ini (BPMN As-Is)}
-\subsection{Proses Bisnis Sistem Usulan (BPMN To-Be)}
-\section{Produk dan Layanan}
+
+\section{Deskripsi Pengguna}
+Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah seluruh entitas yang terlibat dalam ekosistem pengelolaan surplus makanan, rantai pasok logistik sosial, dan penerima manfaat di tingkat komunitas. Sistem ini memfasilitasi kolaborasi multi-pihak yang dirancang agar ramah pengguna (user-friendly), baik bagi masyarakat awam, pelaku usaha, maupun tim manajerial. Untuk memetakan kebutuhan sistem, pengguna aplikasi ini didetailkan ke dalam segmentasi dan peran (role) sebagai berikut:
+
+\subsection{Segmentasi Pengguna}
+\begin{enumerate}
+    \item \textbf{Donatur Individu}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Masyarakat perorangan atau pelaku usaha skala mikro yang memiliki kelebihan produksi makanan dalam jumlah kecil (skala rumah tangga).
+        \item \textbf{Peranan dan Hak Akses Utama}: Memiliki hak untuk mengunggah data makanan surplus, memperbarui status ketersediaan (\textit{inventory}), serta melakukan serah terima secara langsung. Pada saat serah terima menggunakan fitur Janji Temu (COD), pengguna wajib memindai QR Code milik Penerima sebagai bukti distribusi yang sah. Selain itu, donatur memiliki akses untuk memantau Dasbor Dampak Sosial (SROI) yang memuat laporan total porsi terselamatkan dan estimasi pengurangan emisi jejak karbon (CO$_2$).
+        \item \textbf{Hak Akses AI}: Memiliki akses ke fitur bawaan AI \textit{Quality Verification}. Sebelum donasi dipublikasikan, donatur wajib memindai foto makanan menggunakan kamera AI ini guna memastikan kelayakan fisik dan higienitas visual. Selain itu, donatur juga dapat memindai (\textit{scan}) bahan makanan untuk mendapatkan rekomendasi resep masakan dari sistem.
+    \end{itemize}
+    \item \textbf{Donatur Kelompok/Korporat (Mitra Penyedia)}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Pelaku bisnis skala besar di sektor \textit{Hospitality, Restaurant, and Cafe} (HORECA) seperti restoran, hotel, atau usaha katering berskala komersial.
+        \item \textbf{Peranan dan Hak Akses Utama}: Memiliki peranan dan hak akses operasional yang sama persis dengan Donatur Individu, mulai dari siklus manajemen distribusi (unggah surplus, update \textit{inventory}, pindai QR serah terima) hingga pemantauan laporan di Dasbor Dampak Sosial (SROI).
+        \item \textbf{Hak Akses Khusus (Spesial) AI}: Sebagai nilai tambah (\textit{value}) untuk mendukung kampanye pemasaran dan \textit{Corporate Social Responsibility} (CSR) perusahaan, donatur tingkat kelompok/korporat dibekali hak istimewa terhadap dua modul AI generatif eksklusif, yaitu:
+        \begin{itemize}
+            \item \textbf{\textit{Generate Image} Kemasan}: Hak spesial untuk menghasilkan gambar desain prototipe bungkus atau kemasan makanan.
+            \item \textbf{\textit{Generate} Konten Media Sosial}: Hak spesial untuk secara otomatis menghasilkan gambar visual desain (lengkap dengan stiker verifikasi AI dan logo perusahaan) sekaligus memproduksi konten tulisan (\textit{copywriting}) promosi yang siap diunggah ke platform media sosial.
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Penerima (Mitra Penerima)}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Masyarakat di kawasan rentan pangan, panti asuhan, dewan kemakmuran masjid (DKM), atau warga prasejahtera di desa sasaran yang membutuhkan bantuan makanan.
+        \item \textbf{Peranan dan Hak Akses}: Memiliki akses untuk mencari menu makanan terdekat, melakukan proses klaim (booking) guna mengunci stok dan mencegah insiden pengambilan ganda (double-claim) oleh pihak lain, memilih metode pengambilan, dan menyajikan QR Code miliknya untuk dipindai saat makanan tiba.
+        \item \textbf{Hak Akses Khusus AI}: Penerima diberikan akses ke fitur AI \textit{Quality Verification} untuk memindai kelayakan fisik dan higienitas visual makanan sebelum dikonsumsi, fitur Forum Request untuk memublikasikan kebutuhan pangan spesifik, serta memberikan ulasan (\textit{feedback}).
+    \end{itemize}
+    \item \textbf{Relawan}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Pemuda lokal, warga desa, atau masyarakat umum yang bertindak secara sukarela (\textit{crowdsourcing}) sebagai armada logistik sosial.
+        \item \textbf{Peranan dan Hak Akses}: Mengakses daftar misi pengantaran, melakukan penjemputan makanan dari lokasi Donatur, dan mengantarkannya secara langsung ke titik lokasi Penerima. Relawan memegang otoritas validasi lapangan dengan hak akses wajib pindai (\textit{mandatory scan}) QR Code milik Penerima sebagai syarat mutlak penyelesaian transaksi distribusi.
+    \end{itemize}
+    \item \textbf{Admin Pengelola}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Tim manajerial dan pengawas operasional harian yang bertugas mengelola sistem secara administratif di tingkat komunitas.
+        \item \textbf{Peranan dan Hak Akses}: Memiliki hak akses dashboard admin untuk memverifikasi keabsahan pendaftaran akun baru secara manual, membekukan atau memblokir akun yang terbukti melakukan penyalahgunaan, menindaklanjuti laporan negatif, serta memantau Dasbor Statistik makro yang menampilkan peta panas (\textit{heatmap}) sebaran wilayah donasi dan kalkulasi SROI keseluruhan.
+    \end{itemize}
+    \item \textbf{Super Admin}
+    \begin{itemize}
+        \item \textbf{Segmen/Profil}: Pengembang sistem (Tim IT / Programmer).
+        \item \textbf{Peranan dan Hak Akses}: Memiliki tingkat hak akses paling tinggi dan menyeluruh pada sisi \textit{backend} aplikasi. Super Admin bertugas untuk melakukan pemeliharaan server secara berkala (\textit{maintenance}), menangani perbaikan apabila terdapat laporan \textit{bug} dari sistem, dan menjaga stabilitas basis data secara penuh.
+    \end{itemize}
+\end{enumerate}
+
+\newpage
+
+\section{Gambaran Sistem Saat Ini}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bpmnAsIs.png}
+    \caption{Proses Bisnis Sistem Saat Ini (BPMN As-Is)}
+    \label{fig:bpmnAsIs}
+\end{figure}
+
+\subsection{Analisis Proses Bisnis}
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bpmnToBe.png}
+    \caption{Proses Bisnis Sistem Usulan (BPMN To-Be)}
+    \label{fig:bpmnToBe}
+\end{figure}
+
+\subsection{Pengalaman Pengguna}
+
+\section{Identifikasi Aplikasi Sejenis}
+
+\section{Analisis Kebutuhan Sistem}
+
+\subsection{Analisa Kebutuhan Fungsional}
+
+\subsection{Analisa Kebutuhan Dukungan Sistem}
+
 \section{Kinerja Sistem }
-\section{Gamification}
-\section{Hubungan Gamification dengan Sistem Yumasak }

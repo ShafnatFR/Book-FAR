@@ -19,7 +19,7 @@
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{hyperref}
+% \usepackage{hyperref} (Moved to the end)
 \usepackage{tikz}
 \usepackage{setspace}
 \usepackage{enumitem}
@@ -27,10 +27,13 @@
 
 % --- Global Style Adjustments ---
 \onehalfspacing % Set line spacing to 1.5
-\setlist[enumerate]{leftmargin=1.5cm, labelsep=0.5cm} % Standardize list margins
-\setlist[itemize]{leftmargin=1.5cm, labelsep=0.5cm}
-\setlength{\parindent}{1cm} % Standard paragraph indentation
-\setlength{\parskip}{0pt}   % No extra space between paragraphs
+\setlist[enumerate]{leftmargin=1.5cm, labelsep=0.5cm, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt} % Extremely compact lists
+\setlist[itemize]{leftmargin=1.5cm, labelsep=0.5cm, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
+\setlength{\parindent}{0pt} % No paragraph indentation
+\setlength{\parskip}{0.5em}   % Reduced space between paragraphs for tighter layout
+\tracingparagraphs=1         % Useful for debugging paragraph layout if needed (optional)
+\usepackage{ragged2e}       % To ensure justification control
+\justifying                   % Global justification (default in LaTeX usually)
 \sloppy                      % Prevent overfull hbox in justified text
 
 % --- Geometri Halaman ---
@@ -85,14 +88,17 @@
 \titleformat{\section}
   {\normalfont\Large\bfseries\color{black}}
   {\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus .2ex}{0.8ex plus .2ex}
 
 \titleformat{\subsection}
   {\normalfont\large\bfseries\color{black}}
   {\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{1.2ex plus 0.4ex minus .2ex}{0.6ex plus .2ex}
 
 \titleformat{\subsubsection}
   {\normalfont\normalsize\bfseries\color{black}}
   {\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{1.0ex plus 0.3ex minus .2ex}{0.5ex plus .2ex}
 
 % --- Section Numbering Adjustments ---
 \setcounter{secnumdepth}{3} % Allow numbering for subsubsections
@@ -101,7 +107,37 @@
 \renewcommand{\thesubsection}{\thesection.\arabic{subsection}} % 1.1.1
 \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}} % 1.1.1.1
 
-% --- Hyperref Setup ---
+\usepackage{csquotes}
+\DeclareQuoteAlias{american}{indonesian}
+
+% --- Bibliography Setup ---
+\usepackage[style=numeric, sorting=none, backend=biber, language=american]{biblatex}
+\DeclareLanguageMapping{indonesian}{american}
+\addbibresource{referensi.bib}
+
+% Remove bold from bibliography (some styles use bold for volume/year)
+% Localization for Indonesian labels in Bibliography
+% Since biblatex-apa is used, we define missing APA specific macros
+\providecommand{\datecircaprint}{}
+\providecommand{\dateuncertainprint}{}
+\providecommand{\mkbibdateapalongextra}{}
+\providecommand{\mkbibdateapalong}{}
+
+\DefineBibliographyStrings{american}{
+  andothers = {dkk.},
+  and = {dan},
+}
+
+
+% --- Custom Commands ---
+\newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
+
+% Prevent hyphenation for Indonesian
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+% --- Hyperref Setup (MUST BE LAST) ---
+\usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=black,
@@ -110,10 +146,3 @@
     citecolor=blue,
     pdftitle={Book FAR - Template Modul},
 }
-
-% --- Custom Commands ---
-\newcommand{\chapterservicename}{BAB} % Standard for Indonesian "BAB"
-
-% Prevent hyphenation for Indonesian
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
