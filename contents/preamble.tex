@@ -26,6 +26,7 @@
 \usepackage{mathptmx} % Use Times New Roman style font
 
 % --- Global Style Adjustments ---
+\let\cleardoublepage\clearpage
 \onehalfspacing % Set line spacing to 1.5
 \setlist[enumerate]{leftmargin=1.5cm, labelsep=0.5cm, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt} % Extremely compact lists
 \setlist[itemize]{leftmargin=1.5cm, labelsep=0.5cm, topsep=0pt, partopsep=0pt, itemsep=0pt, parsep=0pt}
@@ -111,22 +112,8 @@
 \DeclareQuoteAlias{american}{indonesian}
 
 % --- Bibliography Setup ---
-\usepackage[style=numeric, sorting=none, backend=biber, language=american]{biblatex}
-\DeclareLanguageMapping{indonesian}{american}
+\usepackage[style=ieee, sorting=none, backend=biber, isbn=false, url=false, eprint=false]{biblatex}
 \addbibresource{referensi.bib}
-
-% Remove bold from bibliography (some styles use bold for volume/year)
-% Localization for Indonesian labels in Bibliography
-% Since biblatex-apa is used, we define missing APA specific macros
-\providecommand{\datecircaprint}{}
-\providecommand{\dateuncertainprint}{}
-\providecommand{\mkbibdateapalongextra}{}
-\providecommand{\mkbibdateapalong}{}
-
-\DefineBibliographyStrings{american}{
-  andothers = {dkk.},
-  and = {dan},
-}
 
 
 % --- Custom Commands ---

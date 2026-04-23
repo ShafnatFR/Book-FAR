@@ -6,6 +6,7 @@
 Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah seluruh entitas yang terlibat dalam ekosistem pengelolaan surplus makanan, rantai pasok logistik sosial, dan penerima manfaat di tingkat komunitas. Sistem ini memfasilitasi kolaborasi multi-pihak yang dirancang agar ramah pengguna (user-friendly), baik bagi masyarakat awam, pelaku usaha, maupun tim manajerial. Untuk memetakan kebutuhan sistem, pengguna aplikasi ini didetailkan ke dalam segmentasi dan peran (role) sebagai berikut:
 
 \subsection{Segmentasi Pengguna}
+
 \begin{enumerate}
     \item \textbf{Donatur Individu}
     \begin{itemize}
@@ -50,14 +51,16 @@ Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah selu
 
 \section{Gambaran Sistem Saat Ini}
 
+
+\subsection{Analisis Proses Bisnis}
+Pada sistem manual, proses berbagi makanan berlebih berjalan secara sporadis, linear, dan tidak terstruktur. Ketika rumah tangga, penyelenggara acara, atau pelaku industri (seperti restoran dan hotel) memiliki surplus makanan, mereka harus mencari sendiri fasilitas sosial atau individu yang membutuhkan secara tatap muka atau melalui pesan singkat yang terbatas. Ketiadaan rantai pasok logistik yang terpusat ini menyebabkan waktu terbuang percuma hanya untuk mencari siapa yang bersedia menerima makanan tersebut. Akibatnya, banyak makanan yang awalnya masih layak konsumsi menjadi basi atau kedaluwarsa di tengah jalan, sehingga pada akhirnya tetap berujung dibuang ke Tempat Pembuangan Akhir (TPA) dan memicu masalah emisi gas rumah kaca.
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{image/bpmnAsIs.png}
     \caption{Proses Bisnis Sistem Saat Ini (BPMN As-Is)}
     \label{fig:bpmnAsIs}
 \end{figure}
-
-\subsection{Analisis Proses Bisnis}
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{image/bpmnToBe.png}
@@ -66,6 +69,25 @@ Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah selu
 \end{figure}
 
 \subsection{Pengalaman Pengguna}
+Sistem berbagi makanan secara konvensional ini menimbulkan berbagai masalah dan hambatan yang dirasakan secara spesifik oleh masing-masing pihak yang terlibat:
+
+\begin{enumerate}
+    \item Dari Sisi Donatur (Penyumbang)
+    \begin{itemize}
+        \item Keterbatasan Waktu \& Jangkauan: Makanan sisa memiliki batas waktu konsumsi yang sangat singkat (time-sensitive). Donatur sering kali kesulitan menemukan target penerima yang tepat sasaran dalam waktu cepat sebelum makanan tersebut basi.
+        \item Ketiadaan Rekam Jejak Dampak: Donatur, khususnya skala perusahaan (corporate), tidak memiliki instrumen untuk mengukur secara konkret seberapa besar kontribusi mereka terhadap lingkungan. Mereka tidak tahu berapa volume jejak karbon atau air yang berhasil dihemat dari makanan yang mereka donasikan.
+    \end{itemize}
+    \item Dari Sisi Penerima Donasi (Fasilitas Sosial/Masyarakat)
+    \begin{itemize}
+        \item Ancaman Keamanan Pangan: Ini adalah masalah paling krusial. Penerima donasi sering kali merasa cemas dan tidak memiliki jaminan atas higienitas, kelayakan, maupun kehalalan makanan sisa yang diberikan oleh orang tak dikenal. Pemantauan manual hanya dengan mata telanjang sangat rentan terhadap kesalahan, yang berisiko memicu keracunan makanan atau penularan penyakit.
+        \item Kebutuhan yang Pasif: Penerima tidak memiliki akses informasi (visibilitas) mengenai siapa atau di mana lokasi donatur terdekat yang sedang memiliki surplus makanan, sehingga mereka hanya bisa menunggu tanpa kepastian.
+    \end{itemize}
+    \item Dari Sisi Relawan (Kurir Logistik)
+    \begin{itemize}
+        \item Rendahnya Motivasi \& Partisipasi: Pada sistem manual, relawan pengantar makanan tidak mendapatkan apresiasi, pelacakan kinerja, atau bentuk penghargaan apa pun. Ketiadaan stimulasi ini membuat partisipasi relawan sangat rendah dan tidak konsisten.
+        \item Kendala Operasional: Penjemputan makanan sering kali terhambat oleh miskomunikasi lokasi, serta ketiadaan sistem validasi yang sah (seperti pemindaian bukti serah terima), yang berisiko menyebabkan donasi salah sasaran atau diklaim oleh pihak yang tidak bertanggung jawab.
+    \end{itemize}
+\end{enumerate}
 
 \section{Identifikasi Aplikasi Sejenis}
 
