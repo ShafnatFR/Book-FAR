@@ -59,9 +59,46 @@ Dalam pengembangan platform Food AI Rescue, metode rekayasa perangkat lunak yang
 \subsection{Produk Backlog}
 Product Backlog merupakan daftar prioritas utama yang berisi seluruh fitur, fungsi, perbaikan, dan kebutuhan sistem yang harus dibangun dalam platform Food AI Rescue. Daftar ini dikelola secara dinamis untuk memastikan pengembangan terarah pada nilai manfaat aplikasi. Beberapa item utama dalam Product Backlog pada proyek ini meliputi:
 \begin{enumerate}
-    \item 
+    \item \textbf{Rancang ulang database:} Backlog ini berfokus pada pembaruan struktur penyimpanan data aplikasi dari awal hingga siap beroperasi. Tahapannya sangat komprehensif, dimulai dari merancang desain database baru, mengimplementasikannya ke dalam bahasa SQL, hingga melakukan pengujian awal. Setelah kerangka selesai, langkah selanjutnya adalah memasukkan data rekaan (dummy data) untuk uji coba, mengoneksikan basis data tersebut ke aplikasi utama, dan melakukan pengujian akhir (final testing) untuk memastikan tidak ada kebocoran atau kesalahan aliran data.
+    \item \textbf{Revisi Frontend:} Backlog kedua ini bertujuan untuk menyempurnakan antarmuka pengguna (UI) dan pengalaman pengguna (UX) pada aplikasi. Pengerjaannya dimulai dengan menganalisis bug atau kecacatan visual yang ada di seluruh modul aplikasi. Setelah masalah teridentifikasi, dilakukan revisi pada kode frontend yang dilanjutkan dengan implementasi tata letak dan tampilan baru agar platform FoodAI Rescue terlihat lebih rapi, interaktif, dan mudah digunakan oleh para donatur, relawan, maupun penerima.
+    \item \textbf{Implementasi backend:} Backlog ini bergeser ke sisi server untuk memperkuat fondasi logika sistem aplikasi. Tugas utama di sini adalah memigrasikan logika backend yang sebelumnya menggunakan AppScript ke lingkungan peladen yang baru (seperti Node.js). Selain proses pemindahan, backlog ini juga mewajibkan adanya pengujian backend, implementasi penanganan eror (exceptions) untuk mencegah sistem crash saat terjadi anomali, serta pengujian tahap akhir (final testing) untuk menjamin stabilitas aplikasi secara keseluruhan.
+    \item \textbf{Implementasi API KEY AI:} Backlog terakhir ini merupakan tahap krusial untuk mengaktifkan fitur Kecerdasan Buatan (Google Gemini API) yang menjadi inti inovasi FoodAI Rescue. Tugasnya meliputi pemasangan atau implementasi API Key ke dalam sistem, merevisi konfigurasi environment (seperti file .env) untuk memastikan kunci rahasia terlindungi dengan aman, serta melakukan pengujian (testing AI) guna memastikan fitur intelijensi visual dan generatif—seperti "Polisi Pangan" untuk verifikasi makanan—berjalan dengan akurat.
 \end{enumerate}
 \subsection{Pelaksanaan Sprint}
+Pelaksanaan setiap backlog dibagi ke dalam beberapa tahapan sprint terstruktur guna memastikan pengerjaan yang terukur dan efisien. Rincian tahapan pelaksanaan sprint untuk masing-masing backlog adalah sebagai berikut:
+
+% \vspace{0.5cm}
+\noindent Rancang Ulang Database
+\begin{itemize}
+    \item Desain database
+    \item Implementasi SQL
+    \item Test database
+    \item Insert dummy
+    \item Koneksikan dengan aplikasi
+    \item Final testing
+\end{itemize}
+
+\noindent Revisi Frontend
+\begin{itemize}
+    \item Analisis bug visual untuk semua modul
+    \item Revisi frontend
+    \item Implementasi tampilan baru
+\end{itemize}
+
+\noindent Implementasi Backend
+\begin{itemize}
+    \item Migrasi logic backend dari AppScript
+    \item Testing backend
+    \item Implementasi exceptions
+    \item Final testing
+\end{itemize}
+
+\noindent Implementasi API Key AI
+\begin{itemize}
+    \item Implementasi API key
+    \item Revisi environment
+    \item Testing AI
+\end{itemize}
 
 \subsection{Daily Standup}
 Guna menjaga efisiensi komunikasi dan memastikan kelancaran pencapaian target, tim pengembang mengadakan koordinasi rutin melalui mekanisme Daily Standup. Rapat evaluasi harian yang singkat ini difokuskan untuk memaparkan perkembangan (progress) tugas dari masing-masing personel, menyusun rencana pengembangan kode (coding) selanjutnya, serta mendeteksi dan merumuskan solusi bersama terhadap kendala teknis (blocker) yang mungkin muncul selama proses integrasi kecerdasan buatan (AI) maupun perancangan arsitektur perangkat lunak.

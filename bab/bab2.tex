@@ -5,7 +5,14 @@
 \section{Deskripsi Pengguna}
 Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah seluruh entitas yang terlibat dalam ekosistem pengelolaan surplus makanan, rantai pasok logistik sosial, dan penerima manfaat di tingkat komunitas. Sistem ini memfasilitasi kolaborasi multi-pihak yang dirancang agar ramah pengguna (user-friendly), baik bagi masyarakat awam, pelaku usaha, maupun tim manajerial. Untuk memetakan kebutuhan sistem, pengguna aplikasi ini didetailkan ke dalam segmentasi dan peran (role) sebagai berikut:
 
-\subsection{Segmentasi Pengguna}
+% \subsection{Segmentasi Pengguna}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab2/segmentasi.png}
+    \caption{Segmentasi Pengguna Food AI Rescue}
+    \label{fig:segmentasi}
+\end{figure}
 
 \begin{enumerate}
     \item \textbf{Donatur Individu}
@@ -50,8 +57,9 @@ Target pengguna utama dari aplikasi Food AI Rescue (FAR) secara umum adalah selu
 \newpage
 
 \section{Gambaran Sistem Saat Ini}
-
-
+Gambaran sistem yang berjalan saat ini (As-Is) pada ekosistem penyaluran donasi surplus makanan di masyarakat masih sepenuhnya mengandalkan metode konvensional secara manual dan tidak terstruktur. Hingga saat ini, belum ada satu pun aplikasi khusus atau sistem terintegrasi yang memfasilitasi tata kelola operasional logistik donasi pangan secara digital yang disertai dengan jaminan standar keamanan mutu. Startup JagoAI sebagai pihak inovator juga belum memiliki platform pusat kendali (command center) untuk memonitor aktivitas donasi, memvalidasi kelayakan makanan secara otomatis, serta melacak pergerakan relawan kurir secara terpusat.
+% \\
+% Berdasarkan hasil observasi di lapangan, seluruh pencatatan data ketersediaan surplus makanan dan riwayat penyalurannya masih tidak terdokumentasi dengan baik atau hanya dicatat secara manual. Selain itu, proses pengecekan kelayakan dan keamanan pangan hanya mengandalkan observasi visual dengan mata telanjang oleh pihak donatur tanpa standar higienitas yang baku. Satu-satunya perangkat lunak yang umum digunakan dalam ekosistem penyaluran donasi saat ini hanyalah aplikasi pesan instan pihak ketiga (seperti grup WhatsApp), yang sekadar dimanfaatkan sebagai sarana komunikasi dasar, bukan sebagai sistem manajemen logistik terpadu maupun penyimpan basis data (database). Ketiadaan sistem yang terintegrasi ini menyebabkan rantai informasi penjemputan sering terputus, tingginya risiko ancaman kesehatan bagi penerima akibat kelalaian manusia (human error) dalam memvalidasi makanan, serta lambatnya proses distribusi yang berujung pada membusuknya makanan sebelum disalurkan sehingga tetap berakhir menjadi tumpukan limbah makanan (food waste).
 \subsection{Analisis Proses Bisnis}
 Pada sistem manual, proses berbagi makanan berlebih berjalan secara sporadis, linear, dan tidak terstruktur. Ketika rumah tangga, penyelenggara acara, atau pelaku industri (seperti restoran dan hotel) memiliki surplus makanan, mereka harus mencari sendiri fasilitas sosial atau individu yang membutuhkan secara tatap muka atau melalui pesan singkat yang terbatas. Ketiadaan rantai pasok logistik yang terpusat ini menyebabkan waktu terbuang percuma hanya untuk mencari siapa yang bersedia menerima makanan tersebut. Akibatnya, banyak makanan yang awalnya masih layak konsumsi menjadi basi atau kedaluwarsa di tengah jalan, sehingga pada akhirnya tetap berujung dibuang ke Tempat Pembuangan Akhir (TPA) dan memicu masalah emisi gas rumah kaca.
 
@@ -68,26 +76,39 @@ Pada sistem manual, proses berbagi makanan berlebih berjalan secara sporadis, li
     \label{fig:bpmnToBe}
 \end{figure}
 
-\subsection{Pengalaman Pengguna}
-Sistem berbagi makanan secara konvensional ini menimbulkan berbagai masalah dan hambatan yang dirasakan secara spesifik oleh masing-masing pihak yang terlibat:
+\newpage
 
-\begin{enumerate}
-    \item Dari Sisi Donatur (Penyumbang)
-    \begin{itemize}
-        \item Keterbatasan Waktu \& Jangkauan: Makanan sisa memiliki batas waktu konsumsi yang sangat singkat (time-sensitive). Donatur sering kali kesulitan menemukan target penerima yang tepat sasaran dalam waktu cepat sebelum makanan tersebut basi.
-        \item Ketiadaan Rekam Jejak Dampak: Donatur, khususnya skala perusahaan (corporate), tidak memiliki instrumen untuk mengukur secara konkret seberapa besar kontribusi mereka terhadap lingkungan. Mereka tidak tahu berapa volume jejak karbon atau air yang berhasil dihemat dari makanan yang mereka donasikan.
-    \end{itemize}
-    \item Dari Sisi Penerima Donasi (Fasilitas Sosial/Masyarakat)
-    \begin{itemize}
-        \item Ancaman Keamanan Pangan: Ini adalah masalah paling krusial. Penerima donasi sering kali merasa cemas dan tidak memiliki jaminan atas higienitas, kelayakan, maupun kehalalan makanan sisa yang diberikan oleh orang tak dikenal. Pemantauan manual hanya dengan mata telanjang sangat rentan terhadap kesalahan, yang berisiko memicu keracunan makanan atau penularan penyakit.
-        \item Kebutuhan yang Pasif: Penerima tidak memiliki akses informasi (visibilitas) mengenai siapa atau di mana lokasi donatur terdekat yang sedang memiliki surplus makanan, sehingga mereka hanya bisa menunggu tanpa kepastian.
-    \end{itemize}
-    \item Dari Sisi Relawan (Kurir Logistik)
-    \begin{itemize}
-        \item Rendahnya Motivasi \& Partisipasi: Pada sistem manual, relawan pengantar makanan tidak mendapatkan apresiasi, pelacakan kinerja, atau bentuk penghargaan apa pun. Ketiadaan stimulasi ini membuat partisipasi relawan sangat rendah dan tidak konsisten.
-        \item Kendala Operasional: Penjemputan makanan sering kali terhambat oleh miskomunikasi lokasi, serta ketiadaan sistem validasi yang sah (seperti pemindaian bukti serah terima), yang berisiko menyebabkan donasi salah sasaran atau diklaim oleh pihak yang tidak bertanggung jawab.
-    \end{itemize}
-\end{enumerate}
+\subsection{Pengalaman Pengguna}
+Guna memastikan bahwa platform FoodAI Rescue yang dikembangkan dapat menyelesaikan permasalahan secara akurat dan tepat sasaran, penelitian ini menerapkan pendekatan desain berpusat pada manusia (Human-Centered Design). Pendekatan ini secara spesifik memetakan pengalaman dari target pengguna utama di lapangan—yakni pihak donatur, penerima donasi, dan relawan logistik—ketika mereka masih melakukan proses penyaluran surplus makanan secara manual atau konvensional (As-Is). Hasil pemetaan permasalahan tersebut kemudian dituangkan ke dalam tiga artefak User Experience (UX), meliputi User Persona, Empathy Map, dan User Journey Map, yang dijabarkan sebagai berikut:
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab2/user_persona_individu_donor.png}
+    \caption{User Persona Individu Donor}
+    \label{fig:userPersonaIndividuDonor}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab2/user_persona_korporat_donor.png}
+    \caption{User Persona Korporat Donor}
+    \label{fig:userPersonaKorporatDonor}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab2/user_persona_penerima.png}
+    \caption{User Persona Penerima}
+    \label{fig:userPersonaPenerima}
+\end{figure}
+\clearpage
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=1\textwidth]{image/bab2/user_persona_relawan.png}
+    \caption{User Persona Relawan}
+    \label{fig:userPersonaRelawan}
+\end{figure}
+\clearpage
 
 \section{Identifikasi Aplikasi Sejenis}
 
