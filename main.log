@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.14)  23 APR 2026 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2026.4.14)  24 APR 2026 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3409,7 +3409,17 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
+[][] [][][]\T1/ptm/m/n/12 Empati Map Individu Donor[][] [] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
 [][] [][][]\T1/ptm/m/n/12 User Persona Korporat Donor[][] [] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] [][][]\T1/ptm/m/n/12 Empati Map Korporat Donor[][] [] 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
@@ -3419,7 +3429,17 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
+[][] [][][]\T1/ptm/m/n/12 Empati Map Penerima[][] [] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
 [][] [][][]\T1/ptm/m/n/12 User Persona Relawan[][] [] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] [][][]\T1/ptm/m/n/12 Empati Map Relawan[][] [] 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
@@ -7085,7 +7105,7 @@ ber-i-kut:
 @\par via @@26 b=0 p=-10000 d=100
 @@27: line 6.2- t=95551 -> @@20
 
-<image/bab2/segmentasi.png, id=265, 2071.74pt x 1126.96031pt>
+<image/bab2/segmentasi.png, id=273, 2071.74pt x 1126.96031pt>
 File: image/bab2/segmentasi.png Graphic file (type png)
 <use image/bab2/segmentasi.png>
 Package pdftex.def Info: image/bab2/segmentasi.png  used on input line 12.
@@ -8613,7 +8633,7 @@ ka-ca.
 @\par via @@65 b=0 p=-10000 d=10100
 @@66: line 9.2- t=83696 -> @@54
 
-<image/bpmnAsIs.png, id=285, 3047.385pt x 819.06pt>
+<image/bpmnAsIs.png, id=293, 3047.385pt x 819.06pt>
 File: image/bpmnAsIs.png Graphic file (type png)
 <use image/bpmnAsIs.png>
 Package pdftex.def Info: image/bpmnAsIs.png  used on input line 68.
@@ -8682,7 +8702,7 @@ As-Is)|
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
-<image/bpmnToBe.png, id=286, 5787.6225pt x 2631.8325pt>
+<image/bpmnToBe.png, id=294, 5787.6225pt x 2631.8325pt>
 File: image/bpmnToBe.png Graphic file (type png)
 <use image/bpmnToBe.png>
 Package pdftex.def Info: image/bpmnToBe.png  used on input line 74.
@@ -8874,7 +8894,7 @@ Underfull \hbox (badness 1038) in paragraph at lines 82--83
 \T1/ptm/m/n/12 pe-me-ta-an per-ma-sa-lah-an ter-se-but ke-mu-di-an di-tu-angk-an ke da-lam ti-ga ar-te-fak User
  []
 
-<image/bab2/user_persona_individu_donor.png, id=291, 2071.74pt x 1124.70187pt>
+<image/bab2/user_persona_individu_donor.png, id=300, 2071.74pt x 1124.70187pt>
 File: image/bab2/user_persona_individu_donor.png Graphic file (type png)
 <use image/bab2/user_persona_individu_donor.png>
 Package pdftex.def Info: image/bab2/user_persona_individu_donor.png  used on input line 86.
@@ -8916,6 +8936,272 @@ Donor|
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
+<image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_individu.png, id=301, 1445.4pt x 813.0375pt>
+File: image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_individu.png Graphic file (type png)
+<use image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_individu.png>
+Package pdftex.def Info: image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_individu.png  used on input line 92.
+(pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.5: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|Empati 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Map 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Individu 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@ via @@3 b=0 p=0 d=100
+@@4: line 1.2 t=100 -> @@0
+Donor|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@\par via @@4 b=0 p=-10000 d=100
+@@5: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/user_persona_korporat_donor.png, id=302, 2073.24562pt x 1125.45468pt>
+File: image/bab2/user_persona_korporat_donor.png Graphic file (type png)
+<use image/bab2/user_persona_korporat_donor.png>
+Package pdftex.def Info: image/bab2/user_persona_korporat_donor.png  used on input line 99.
+(pdftex.def)             Requested size: 426.95175pt x 231.76726pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.6: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|User 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Persona 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Korporat 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@ via @@3 b=0 p=0 d=100
+@@4: line 1.2 t=100 -> @@0
+Donor|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@\par via @@4 b=0 p=-10000 d=100
+@@5: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_korporat.png, id=303, 1445.4pt x 813.0375pt>
+File: image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_korporat.png Graphic file (type png)
+<use image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_korporat.png>
+Package pdftex.def Info: image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_korporat.png  used on input line 105.
+(pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.7: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|Empati 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Map 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Korporat 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@ via @@3 b=0 p=0 d=100
+@@4: line 1.2 t=100 -> @@0
+Donor|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@\par via @@4 b=0 p=-10000 d=100
+@@5: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/user_persona_penerima.png, id=304, 2073.24562pt x 1125.45468pt>
+File: image/bab2/user_persona_penerima.png Graphic file (type png)
+<use image/bab2/user_persona_penerima.png>
+Package pdftex.def Info: image/bab2/user_persona_penerima.png  used on input line 112.
+(pdftex.def)             Requested size: 426.95175pt x 231.76726pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.8: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|User 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Persona 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Penerima|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@@4: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/segmentasi/empati_map/thinks_and_feels/penerima.png, id=305, 1445.4pt x 813.0375pt>
+File: image/bab2/segmentasi/empati_map/thinks_and_feels/penerima.png Graphic file (type png)
+<use image/bab2/segmentasi/empati_map/thinks_and_feels/penerima.png>
+Package pdftex.def Info: image/bab2/segmentasi/empati_map/thinks_and_feels/penerima.png  used on input line 118.
+(pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.9: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|Empati 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Map 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Penerima|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@@4: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/user_persona_relawan.png, id=306, 2764.3275pt x 1541.76pt>
+File: image/bab2/user_persona_relawan.png Graphic file (type png)
+<use image/bab2/user_persona_relawan.png>
+Package pdftex.def Info: image/bab2/user_persona_relawan.png  used on input line 125.
+(pdftex.def)             Requested size: 426.95175pt x 238.12341pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.10: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|User 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Persona 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Relawan|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@@4: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+<image/bab2/segmentasi/empati_map/thinks_and_feels/relawan.png, id=307, 1445.4pt x 813.0375pt>
+File: image/bab2/segmentasi/empati_map/thinks_and_feels/relawan.png Graphic file (type png)
+<use image/bab2/segmentasi/empati_map/thinks_and_feels/relawan.png>
+Package pdftex.def Info: image/bab2/segmentasi/empati_map/thinks_and_feels/relawan.png  used on input line 131.
+(pdftex.def)             Requested size: 426.95175pt x 240.15413pt.
+@firstpass
+[][]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 Gambar 2.11: 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|Empati 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@@2: line 1.2 t=100 -> @@0
+Map 
+@ via @@0 b=0 p=0 d=100
+@ via @@1 b=0 p=0 d=100
+@ via @@2 b=0 p=0 d=100
+@@3: line 1.2 t=100 -> @@0
+Relawan|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@\par via @@2 b=0 p=-10000 d=100
+@\par via @@3 b=0 p=-10000 d=100
+@@4: line 1.2- t=100 -> @@0
+
+@firstpass
+[][] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
 @firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
@@ -8923,7 +9209,7 @@ Donor|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 90.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 135.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -8962,7 +9248,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 90.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 135.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -8993,49 +9279,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
- [12 <./image/bab2/user_persona_individu_donor.png (PNG copy)>]
-<image/bab2/user_persona_korporat_donor.png, id=301, 2073.24562pt x 1125.45468pt>
-File: image/bab2/user_persona_korporat_donor.png Graphic file (type png)
-<use image/bab2/user_persona_korporat_donor.png>
-Package pdftex.def Info: image/bab2/user_persona_korporat_donor.png  used on input line 93.
-(pdftex.def)             Requested size: 426.95175pt x 231.76726pt.
-@firstpass
-[][]
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
-@firstpass
-[]\T1/ptm/m/n/12 Gambar 2.5: 
-@ via @@0 b=0 p=0 d=100
-@@1: line 1.2 t=100 -> @@0
-|User 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@@2: line 1.2 t=100 -> @@0
-Persona 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@ via @@2 b=0 p=0 d=100
-@@3: line 1.2 t=100 -> @@0
-Korporat 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@ via @@2 b=0 p=0 d=100
-@ via @@3 b=0 p=0 d=100
-@@4: line 1.2 t=100 -> @@0
-Donor|
-@\par via @@0 b=0 p=-10000 d=100
-@\par via @@1 b=0 p=-10000 d=100
-@\par via @@2 b=0 p=-10000 d=100
-@\par via @@3 b=0 p=-10000 d=100
-@\par via @@4 b=0 p=-10000 d=100
-@@5: line 1.2- t=100 -> @@0
-
-@firstpass
-[][] 
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
+ [12 <./image/bab2/user_persona_individu_donor.png (PNG copy)> <./image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_individu.png (PNG copy)>]
 @firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
@@ -9043,7 +9287,7 @@ Donor|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 97.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 135.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -9074,44 +9318,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
- [13
-
- <./image/bab2/user_persona_korporat_donor.png>]
-<image/bab2/user_persona_penerima.png, id=307, 2073.24562pt x 1125.45468pt>
-File: image/bab2/user_persona_penerima.png Graphic file (type png)
-<use image/bab2/user_persona_penerima.png>
-Package pdftex.def Info: image/bab2/user_persona_penerima.png  used on input line 100.
-(pdftex.def)             Requested size: 426.95175pt x 231.76726pt.
-@firstpass
-[][]
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
-@firstpass
-[]\T1/ptm/m/n/12 Gambar 2.6: 
-@ via @@0 b=0 p=0 d=100
-@@1: line 1.2 t=100 -> @@0
-|User 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@@2: line 1.2 t=100 -> @@0
-Persona 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@ via @@2 b=0 p=0 d=100
-@@3: line 1.2 t=100 -> @@0
-Penerima|
-@\par via @@0 b=0 p=-10000 d=100
-@\par via @@1 b=0 p=-10000 d=100
-@\par via @@2 b=0 p=-10000 d=100
-@\par via @@3 b=0 p=-10000 d=100
-@@4: line 1.2- t=100 -> @@0
-
-@firstpass
-[][] 
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
+ [13 <./image/bab2/user_persona_korporat_donor.png> <./image/bab2/segmentasi/empati_map/thinks_and_feels/donatur_korporat.png (PNG copy)>]
 @firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
@@ -9119,7 +9326,7 @@ Penerima|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 104.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 135.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -9150,44 +9357,7 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
- [14
-
- <./image/bab2/user_persona_penerima.png>]
-<image/bab2/user_persona_relawan.png, id=314, 2764.3275pt x 1541.76pt>
-File: image/bab2/user_persona_relawan.png Graphic file (type png)
-<use image/bab2/user_persona_relawan.png>
-Package pdftex.def Info: image/bab2/user_persona_relawan.png  used on input line 107.
-(pdftex.def)             Requested size: 426.95175pt x 238.12341pt.
-@firstpass
-[][]
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
-@firstpass
-[]\T1/ptm/m/n/12 Gambar 2.7: 
-@ via @@0 b=0 p=0 d=100
-@@1: line 1.2 t=100 -> @@0
-|User 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@@2: line 1.2 t=100 -> @@0
-Persona 
-@ via @@0 b=0 p=0 d=100
-@ via @@1 b=0 p=0 d=100
-@ via @@2 b=0 p=0 d=100
-@@3: line 1.2 t=100 -> @@0
-Relawan|
-@\par via @@0 b=0 p=-10000 d=100
-@\par via @@1 b=0 p=-10000 d=100
-@\par via @@2 b=0 p=-10000 d=100
-@\par via @@3 b=0 p=-10000 d=100
-@@4: line 1.2- t=100 -> @@0
-
-@firstpass
-[][] 
-@\par via @@0 b=0 p=-10000 d=100
-@@1: line 1.2- t=100 -> @@0
-
+ [14 <./image/bab2/user_persona_penerima.png> <./image/bab2/segmentasi/empati_map/thinks_and_feels/penerima.png (PNG copy)>]
 @firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
@@ -9195,7 +9365,7 @@ Relawan|
 
 File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
 <use image/Logo_Universitas_Telkom_Horizontal.png>
-Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 111.
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 135.
 (pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
 @firstpass
 [][] 
@@ -9226,13 +9396,98 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
- [15
-
- <./image/bab2/user_persona_relawan.png>]
+ [15 <./image/bab2/user_persona_relawan.png> <./image/bab2/segmentasi/empati_map/thinks_and_feels/relawan.png (PNG copy)>]
 @firstpass
 |[]\T1/ptm/b/n/17.28 Identifikasi Aplikasi Sejenis| 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
+
+@firstpass
+\T1/ptm/m/n/12 Tahapan identifikasi aplikasi sejenis dilakukan guna memetakan berbagai produk atau 
+@ via @@0 b=79 p=0 d=7921
+@@1: line 1.1 t=7921 -> @@0
+@secondpass
+\T1/ptm/m/n/12 Tahapan iden-ti-fi-ka-si apli-ka-si se-je-nis di-la-kuk-an gu-na me-me-tak-an ber-ba-gai pro-duk 
+@ via @@0 b=1838 p=0 d=3425104
+@@1: line 1.0 t=3425104 -> @@0
+atau 
+@ via @@0 b=79 p=0 d=7921
+@@2: line 1.1 t=7921 -> @@0
+la-yan-an per-ang-kat lu-nak di pa-sar (exis-ting so-lu-tions) yang me-mi-li-ki ke-mi-rip-an 
+@ via @@1 b=323 p=0 d=110889
+@ via @@2 b=2865 p=0 d=8265625
+@@3: line 2.0 t=3535993 -> @@1
+fung-sio-na-li-tas de-ngan sis-tem yang se-dang di-u-sulk-an. Ob-se-rva-si ini di-tu-juk-an 
+@ via @@3 b=3271 p=0 d=10764961
+@@4: line 3.0 t=14300954 -> @@3
+un-tuk 
+@ via @@3 b=261 p=0 d=73441
+@@5: line 3.0 t=3609434 -> @@3
+meng-a-na-li-sis ce-lah ke-le-mah-an (gap) da-ri pla-tform pen-da-hu-lu, se-hing-ga 
+@ via @@4 b=5064 p=0 d=25745476
+@@6: line 4.0 t=40046430 -> @@4
+ran-cang-an 
+@ via @@4 b=0 p=0 d=10100
+@ via @@5 b=1102 p=0 d=1236544
+@@7: line 4.0 t=4845978 -> @@5
+apli-ka-si Fo-o-dAI Re-scue mam-pu meng-ha-dirk-an ni-lai tam-bah (va-lue 
+@ via @@6 b=5133 p=0 d=26450449
+@@8: line 5.0 t=66496879 -> @@6
+pro-po-si-tion) 
+@ via @@7 b=2875 p=0 d=8323225
+@@9: line 5.0 t=13169203 -> @@7
+yang 
+@ via @@7 b=132 p=0 d=20164
+@@10: line 5.0 t=4866142 -> @@7
+le-bih ku-at dan re-lev-an ba-gi tar-get peng-gu-na-nya^^Vseperti do-na-tur 
+@ via @@8 b=574 p=0 d=341056
+@@11: line 6.0 t=66837935 -> @@8
+in-di-vi-du, 
+@ via @@9 b=2134 p=0 d=4596736
+@@12: line 6.0 t=17765939 -> @@9
+mi-tra 
+@ via @@9 b=73 p=0 d=6889
+@ via @@10 b=1715 p=0 d=2975625
+@@13: line 6.0 t=7841767 -> @@10
+kor-po-rat 
+@ via @@10 b=0 p=0 d=10100
+@@14: line 6.2 t=4876242 -> @@10
+(HO-RE-CA), re-la-w-an, dan pe-ne-ri-ma do-na-si^^Vserta se-la-ras 
+@ via @@11 b=977 p=0 d=974169
+@@15: line 7.0 t=67812104 -> @@11
+de-ngan 
+@ via @@11 b=48 p=0 d=13364
+@ via @@12 b=2080 p=0 d=4368100
+@@16: line 7.0 t=22134039 -> @@12
+vi-si 
+@ via @@12 b=187 p=0 d=38809
+@ via @@13 b=3557 p=0 d=12723489
+@@17: line 7.0 t=17804748 -> @@12
+in-stan-si 
+@ via @@13 b=17 p=0 d=729
+@ via @@14 b=4467 p=0 d=20053529
+@@18: line 7.1 t=7842496 -> @@13
+pe-ngem-bang se-per-ti Ja-go-AI. 
+@\par via @@15 b=0 p=-10000 d=10100
+@\par via @@16 b=0 p=-10000 d=10100
+@\par via @@17 b=0 p=-10000 d=10100
+@\par via @@18 b=0 p=-10000 d=100
+@@19: line 8.2- t=7842596 -> @@18
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 138--139
+\T1/ptm/m/n/12 Tahapan iden-ti-fi-ka-si apli-ka-si se-je-nis di-la-kuk-an gu-na me-me-tak-an ber-ba-gai pro-duk
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 138--139
+\T1/ptm/m/n/12 meng-a-na-li-sis ce-lah ke-le-mah-an (gap) da-ri pla-tform pen-da-hu-lu, se-hing-ga ran-cang-an
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 138--139
+\T1/ptm/m/n/12 le-bih ku-at dan re-lev-an ba-gi tar-get peng-gu-na-nya^^Vseperti do-na-tur in-di-vi-du, mi-tra
+ []
 
 @firstpass
 |[]\T1/ptm/b/n/17.28 Analisis Kebutuhan Sistem| 
@@ -9240,9 +9495,217 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
+@secondpass
+\T1/ptm/m/n/12 Analisis per-sya-rat-an sis-tem me-ru-pak-an lang-kah esen-si-al da-lam men-tran-sfor-ma-sik-an 
+@ via @@0 b=692 p=0 d=502804
+@@1: line 1.0 t=502804 -> @@0
+ken-da-la ope-ra-sio-nal pa-da sis-tem ma-nu-al (As-Is) ser-ta ti-tik ke-luh-an (pa-in po-in-ts) 
+@ via @@1 b=1448 p=0 d=2125764
+@@2: line 2.0 t=2628568 -> @@1
+pa-ra 
+@ via @@1 b=107 p=0 d=13689
+@@3: line 2.0 t=516493 -> @@1
+ak-tor 
+@ via @@1 b=62 p=0 d=15184
+@@4: line 2.3 t=517988 -> @@1
+la-pang-an ke da-lam spe-si-fi-ka-si tek-nis yang komp-re-hen-sif ba-gi pla-tform 
+@ via @@2 b=936 p=0 d=894916
+@ via @@3 b=5504 p=0 d=30404196
+@@5: line 3.0 t=3523484 -> @@2
+Fo-o-dAI 
+@ via @@2 b=2 p=0 d=10144
+@ via @@3 b=169 p=0 d=32041
+@ via @@4 b=2790 p=0 d=7850000
+@@6: line 3.0 t=548534 -> @@3
+Re-scue. 
+@ via @@4 b=10 p=0 d=400
+@@7: line 3.2 t=518388 -> @@4
+Ta-hap-an ana-li-sis ini di-kla-si-fi-ka-sik-an ke da-lam ti-ga se-gmen 
+@ via @@5 b=3547 p=0 d=12652249
+@@8: line 4.0 t=16175733 -> @@5
+uta-ma, 
+@ via @@5 b=261 p=0 d=73441
+@ via @@6 b=4391 p=0 d=19368801
+@@9: line 4.0 t=3596925 -> @@5
+yak-ni 
+@ via @@5 b=0 p=0 d=10100
+@ via @@6 b=607 p=0 d=380689
+@@10: line 4.0 t=929223 -> @@6
+pen-de-fi-ni-si-an 
+@ via @@7 b=50 p=0 d=3600
+@@11: line 4.1 t=521988 -> @@7
+ting-kat hak ak-ses peng-gu-na (me-li-pu-ti Do-na-tur, Pe-ne-ri-ma, 
+@ via @@8 b=147 p=0 d=24649
+@ via @@9 b=5022 p=0 d=25321024
+@@12: line 5.0 t=16200382 -> @@8
+Re-la-w-an, 
+@ via @@9 b=7 p=0 d=10289
+@ via @@10 b=1389 p=0 d=1957201
+@@13: line 5.0 t=2886424 -> @@10
+Admin, 
+@ via @@10 b=7 p=0 d=10289
+@ via @@11 b=6842 p=0 d=46949904
+@@14: line 5.2 t=939512 -> @@10
+dan 
+@ via @@11 b=1466 p=0 d=2178576
+@@15: line 5.0 t=2700564 -> @@11
+Su-pe-rA-dmin), pe-me-ta-an ke-bu-tuh-an fung-sio-nal ce-rdas apli-ka-si, 
+@ via @@12 b=175 p=0 d=34225
+@@16: line 6.0 t=16234607 -> @@12
+ser-ta 
+@ via @@13 b=1769 p=0 d=3164841
+@@17: line 6.0 t=6051265 -> @@13
+spe-si-fi-ka-si 
+@ via @@14 b=571 p=0 d=347561
+@ via @@15 b=4403 p=0 d=19474569
+@@18: line 6.0 t=1287073 -> @@14
+in-fras-truk-tur tek-no-lo-gi pen-du-kung di si-si bac-kend. 
+@\par via @@16 b=0 p=-10000 d=10100
+@\par via @@17 b=0 p=-10000 d=10100
+@\par via @@18 b=0 p=-10000 d=10100
+@@19: line 7.2- t=1297173 -> @@18
+
+@firstpass
 |[]\T1/ptm/b/n/14.4 Analisa Kebutuhan Fungsional| 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
+
+@firstpass
+\T1/ptm/m/n/12 Analisis kebutuhan fungsional menguraikan spesifikasi kapabilitas yang wajib dimiliki 
+@ via @@0 b=42 p=0 d=2704
+@@1: line 1.1 t=2704 -> @@0
+oleh sistem guna menjawab permasalahan pengguna di lapangan. Merujuk pada hasil 
+@ via @@1 b=54 p=0 d=4096
+@@2: line 2.1 t=6800 -> @@1
+observasi alur distribusi manual (As-Is) serta ekstraksi titik keluhan (pain points) dari 
+@ via @@2 b=67 p=0 d=5929
+@@3: line 3.1 t=12729 -> @@2
+@secondpass
+\T1/ptm/m/n/12 Analisis ke-bu-tuh-an fung-sio-nal meng-u-ra-ik-an spe-si-fi-ka-si ka-pa-bi-li-tas yang wa-jib 
+@ via @@0 b=6944 p=0 d=48368116
+@@1: line 1.0 t=48368116 -> @@0
+di-mi-li-ki 
+@ via @@0 b=42 p=0 d=2704
+@@2: line 1.1 t=2704 -> @@0
+oleh sis-tem gu-na men-ja-wab per-ma-sa-lah-an peng-gu-na di la-pang-an. Me-ru-juk 
+@ via @@1 b=281 p=0 d=84681
+@ via @@2 b=5622 p=0 d=31719424
+@@3: line 2.0 t=31722128 -> @@2
+pa-da 
+@ via @@1 b=0 p=0 d=10100
+@ via @@2 b=1048 p=0 d=1119364
+@@4: line 2.0 t=1122068 -> @@2
+ha-sil 
+@ via @@2 b=54 p=0 d=4096
+@@5: line 2.1 t=6800 -> @@2
+ob-se-rva-si alur dis-tri-bu-si ma-nu-al (As-Is) ser-ta eks-trak-si ti-tik ke-luh-an 
+@ via @@3 b=2359 p=0 d=5612161
+@@6: line 3.0 t=37334289 -> @@3
+(pa-in 
+@ via @@3 b=178 p=0 d=35344
+@ via @@4 b=2096 p=0 d=4435236
+@@7: line 3.0 t=5557304 -> @@4
+po-in-ts) 
+@ via @@4 b=30 p=0 d=1600
+@ via @@5 b=1014 p=0 d=1048576
+@@8: line 3.0 t=1055376 -> @@5
+da-ri 
+@ via @@4 b=89 p=0 d=19801
+@ via @@5 b=67 p=0 d=5929
+@@9: line 3.1 t=12729 -> @@5
+Em-pa-thy Map dan User Jo-ur-ney Map, pla-tform yang di-ran-cang 
+@ via @@6 b=621 p=0 d=398161
+@ via @@7 b=4353 p=0 d=19035769
+@@10: line 4.0 t=24593073 -> @@7
+ha-rus 
+@ via @@6 b=5 p=0 d=10225
+@ via @@7 b=558 p=0 d=322624
+@ via @@8 b=6001 p=0 d=36132121
+@@11: line 4.0 t=5879928 -> @@7
+mam-pu 
+@ via @@7 b=5 p=0 d=10225
+@ via @@8 b=441 p=0 d=203401
+@ via @@9 b=2635 p=0 d=6996025
+@@12: line 4.0 t=1258777 -> @@8
+meng-ha-dirk-an so-lu-si ber-u-pa oto-ma-ti-sa-si ve-ri-fi-ka-si ke-la-yak-an pa-ngan 
+@ via @@10 b=845 p=0 d=731025
+@@13: line 5.0 t=25324098 -> @@10
+ber-ba-sis 
+@ via @@11 b=137 p=0 d=21609
+@@14: line 5.0 t=5901537 -> @@11
+Ke-ce-rdas-an 
+@ via @@12 b=25 p=0 d=11225
+@@15: line 5.3 t=1270002 -> @@12
+Bu-at-an (AI), pen-co-cok-an do-na-si se-ca-ra real-time, ser-ta 
+@ via @@13 b=7522 p=0 d=56731024
+@@16: line 6.0 t=82055122 -> @@13
+re-ka-pi-tu-la-si 
+@ via @@13 b=1 p=0 d=10121
+@ via @@14 b=2980 p=0 d=8940100
+@@17: line 6.0 t=14841637 -> @@14
+pe-la-por-an 
+@ via @@14 b=30 p=0 d=11600
+@ via @@15 b=4913 p=0 d=24245929
+@@18: line 6.3 t=5913137 -> @@14
+dam-pak 
+@ via @@15 b=52 p=0 d=13844
+@@19: line 6.1 t=1283846 -> @@15
+ling-kung-an (SROI) se-ca-ra di-gi-tal. Oleh ka-re-na 
+@ via @@16 b=2573 p=0 d=6671889
+@@20: line 7.0 t=88727011 -> @@16
+itu, 
+@ via @@16 b=527 p=0 d=288369
+@@21: line 7.0 t=82343491 -> @@16
+fung-sio-na-li-tas 
+@ via @@17 b=150 p=0 d=25600
+@ via @@18 b=6316 p=0 d=40028276
+@@22: line 7.0 t=14867237 -> @@17
+yang 
+@ via @@17 b=11 p=0 d=10441
+@ via @@18 b=1259 p=0 d=1620361
+@@23: line 7.0 t=7533498 -> @@18
+ak-an 
+@ via @@18 b=92 p=0 d=20404
+@ via @@19 b=2932 p=0 d=8655364
+@@24: line 7.1 t=5933541 -> @@18
+di-im-ple-men-ta-sik-an pa-da eko-sis-tem Fo-o-dAI Re-scue 
+@ via @@20 b=1990 p=0 d=4000000
+@@25: line 8.0 t=92727011 -> @@20
+di-kla-si-fi-ka-sik-an 
+@ via @@22 b=6608 p=0 d=43797924
+@@26: line 8.0 t=58665161 -> @@22
+ke 
+@ via @@22 b=1661 p=0 d=2792241
+@@27: line 8.0 t=17659478 -> @@22
+da-lam 
+@ via @@22 b=2 p=0 d=10144
+@ via @@23 b=972 p=0 d=964324
+@@28: line 8.0 t=8497822 -> @@23
+enam 
+@ via @@23 b=0 p=0 d=10100
+@ via @@24 b=688 p=0 d=487204
+@@29: line 8.0 t=6420745 -> @@24
+mo-dul 
+@ via @@24 b=89 p=0 d=19801
+@@30: line 8.3 t=5953342 -> @@24
+uta-ma ber-i-kut 
+@\par via @@25 b=0 p=-10000 d=10100
+@\par via @@26 b=0 p=-10000 d=10100
+@\par via @@27 b=0 p=-10000 d=10100
+@\par via @@28 b=0 p=-10000 d=10100
+@\par via @@29 b=0 p=-10000 d=10100
+@\par via @@30 b=0 p=-10000 d=100
+@@31: line 9.2- t=5953442 -> @@30
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 144--145
+\T1/ptm/m/n/12 oleh sis-tem gu-na men-ja-wab per-ma-sa-lah-an peng-gu-na di la-pang-an. Me-ru-juk pa-da
+ []
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 144--145
+\T1/ptm/m/n/12 ha-sil ob-se-rva-si alur dis-tri-bu-si ma-nu-al (As-Is) ser-ta eks-trak-si ti-tik ke-luh-an (pa-in
+ []
 
 @firstpass
 |[]\T1/ptm/b/n/14.4 Analisa Kebutuhan Dukungan Sistem| 
@@ -9250,11 +9713,421 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
+@secondpass
+\T1/ptm/m/n/12 Agar se-lu-ruh fung-sio-na-li-tas apli-ka-si da-pat ber-o-pe-ra-si se-ca-ra op-ti-mal, res-pon-sif, 
+@ via @@0 b=3049 p=0 d=9367481
+@@1: line 1.0 t=9367481 -> @@0
+dan 
+@ via @@0 b=355 p=0 d=143225
+@@2: line 1.0 t=143225 -> @@0
+ter-o-to-ma-ti-sa-si, pla-tform Fo-o-dAI Re-scue ti-dak da-pat ha-nya meng-an-dalk-an 
+@ via @@1 b=4739 p=0 d=22553001
+@@3: line 2.0 t=31920482 -> @@1
+an-tar-mu-ka 
+@ via @@1 b=0 p=0 d=10100
+@ via @@2 b=259 p=0 d=72361
+@@4: line 2.0 t=215586 -> @@2
+peng-gu-na ( fron-tend ) sa-ja. Pla-tform ini me-nun-tut ada-nya du-kung-an 
+@ via @@3 b=1062 p=0 d=1149184
+@@5: line 3.0 t=33069666 -> @@3
+ar-si-tek-tur 
+@ via @@3 b=0 p=0 d=10100
+@ via @@4 b=1460 p=0 d=2160900
+@@6: line 3.0 t=2376486 -> @@4
+sis-tem 
+@ via @@4 b=55 p=0 d=4225
+@@7: line 3.1 t=219811 -> @@4
+di 
+@ via @@4 b=2 p=0 d=10144
+@@8: line 3.2 t=225730 -> @@4
+si-si bac-kend yang tang-guh. Se-ca-ra kon-sep-tu-al, in-fras-truk-tur 
+@ via @@5 b=1184 p=0 d=1425636
+@@9: line 4.0 t=34495302 -> @@5
+di 
+@ via @@5 b=362 p=0 d=138384
+@ via @@6 b=6675 p=0 d=44689225
+@@10: line 4.0 t=33208050 -> @@5
+be-la-kang 
+@ via @@6 b=430 p=0 d=193600
+@ via @@7 b=4036 p=0 d=16370116
+@@11: line 4.0 t=2570086 -> @@6
+la-yar 
+@ via @@6 b=5 p=0 d=10225
+@ via @@7 b=718 p=0 d=529984
+@ via @@8 b=1983 p=0 d=3982049
+@@12: line 4.0 t=749795 -> @@7
+ini 
+@ via @@6 b=60 p=0 d=14900
+@ via @@7 b=142 p=0 d=23104
+@ via @@8 b=562 p=0 d=337184
+@@13: line 4.0 t=242915 -> @@7
+di-kla-si-fi-ka-sik-an ke da-lam ti-ga pi-lar ke-bu-tuh-an ope-ra-sio-nal 
+@ via @@9 b=1762 p=0 d=3139984
+@ via @@10 b=4872 p=0 d=23833924
+@@14: line 5.0 t=37635286 -> @@9
+uta-ma: 
+@ via @@9 b=18 p=0 d=784
+@ via @@10 b=223 p=0 d=54289
+@ via @@11 b=8000 p=0 d=64160100
+@@15: line 5.0 t=33262339 -> @@10
+pe-me-nuh-an 
+@ via @@11 b=16 p=0 d=676
+@ via @@12 b=927 p=0 d=877969
+@ via @@13 b=3590 p=0 d=12960000
+@@16: line 5.0 t=1627764 -> @@12
+fung-sio-na-li-tas kon-ten (ma-na-je-men do-na-si dan peng-gu-na), 
+@ via @@14 b=5787 p=0 d=33605209
+@@17: line 6.0 t=71240495 -> @@14
+ke-ter-se-di-a-an 
+@ via @@15 b=1127 p=0 d=1292769
+@@18: line 6.0 t=34555108 -> @@15
+la-yan-an 
+@ via @@16 b=4739 p=0 d=22553001
+@@19: line 6.0 t=24180765 -> @@16
+in-te-gra-si 
+@ via @@16 b=1 p=0 d=10121
+@@20: line 6.2 t=1637885 -> @@16
+(API se-rvi-ces), ser-ta in-fras-truk-tur tek-no-lo-gi pen-du-kung 
+@ via @@17 b=89 p=0 d=9801
+@@21: line 7.1 t=71250296 -> @@17
+Ke-ce-rdas-an 
+@ via @@18 b=193 p=0 d=41209
+@@22: line 7.0 t=34596317 -> @@18
+Bu-at-an 
+@ via @@19 b=318 p=0 d=107584
+@@23: line 7.0 t=24288349 -> @@19
+(se-per-ti 
+@ via @@20 b=601 p=0 d=383321
+@@24: line 7.0 t=2021206 -> @@20
+in-te-gra-si Go-o-gle Ge-mi-ni Vi-sion API) yang men-ja-di 
+@ via @@21 b=2173 p=0 d=4765489
+@@25: line 8.0 t=76015785 -> @@21
+mo-tor 
+@ via @@21 b=42 p=0 d=2704
+@@26: line 8.1 t=71253000 -> @@21
+peng-ge-rak 
+@ via @@22 b=122 p=0 d=17424
+@ via @@23 b=4181 p=0 d=17564481
+@@27: line 8.0 t=34613741 -> @@22
+ino-va-si 
+@ via @@23 b=118 p=0 d=16384
+@ via @@24 b=4595 p=0 d=21206025
+@@28: line 8.0 t=23227231 -> @@24
+sis-tem. 
+@\par via @@24 b=0 p=-10000 d=10100
+@\par via @@25 b=0 p=-10000 d=10100
+@\par via @@26 b=0 p=-10000 d=100
+@\par via @@27 b=0 p=-10000 d=10100
+@\par via @@28 b=0 p=-10000 d=10100
+@@29: line 8.2- t=2031306 -> @@24
+
+@firstpass
+[] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+File: image/Logo_Universitas_Telkom_Horizontal.png Graphic file (type png)
+<use image/Logo_Universitas_Telkom_Horizontal.png>
+Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on input line 148.
+(pdftex.def)             Requested size: 77.11923pt x 34.14322pt.
+@firstpass
+[][] 
+@ via @@0 b=0 p=0 d=100
+@@1: line 1.2 t=100 -> @@0
+|
+@\par via @@0 b=0 p=-10000 d=100
+@\par via @@1 b=0 p=-10000 d=100
+@@2: line 1.2- t=100 -> @@0
+
+@firstpass
+[]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[] 
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+@firstpass
+[]\T1/ptm/m/n/12 16|
+@\par via @@0 b=0 p=-10000 d=100
+@@1: line 1.2- t=100 -> @@0
+
+[16
+
+]
+@firstpass
 |[]\T1/ptm/b/n/17.28 Kinerja Sistem | 
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
 )
+@firstpass
+\T1/ptm/m/n/12 Kinerja sistem merepresentasikan standar minimum dan tolok ukur (benchmark) yang 
+@ via @@0 b=65 p=0 d=5625
+@@1: line 1.1 t=5625 -> @@0
+diterapkan guna memastikan seluruh ekosistem aplikasi FoodAI Rescue, khususnya pada 
+@ via @@1 b=0 p=0 d=100
+@@2: line 2.2 t=5725 -> @@1
+Modul Konfigurasi Pusat (Admin) dan Dasbor Dampak Sosial (SROI), mampu beroperasi 
+@ via @@2 b=23 p=0 d=1089
+@@3: line 3.3 t=6814 -> @@2
+selaras dengan spesifikasi dan perancangan fungsionalnya. Proses evaluasi kinerja dalam 
+@ via @@3 b=0 p=0 d=100
+@@4: line 4.2 t=6914 -> @@3
+pengembangan platform ini dititikberatkan pada empat parameter fundamental, meliputi: 
+@ via @@4 b=0 p=0 d=100
+@@5: line 5.2 t=7014 -> @@4
+@secondpass
+\T1/ptm/m/n/12 Kinerja sis-tem me-rep-re-sen-ta-sik-an stan-dar mi-ni-mum dan to-lok ukur (ben-ch-mark) 
+@ via @@0 b=2197 p=0 d=4880849
+@@1: line 1.0 t=4880849 -> @@0
+yang 
+@ via @@0 b=65 p=0 d=5625
+@@2: line 1.1 t=5625 -> @@0
+di-te-rapk-an gu-na me-mas-tik-an se-lu-ruh eko-sis-tem apli-ka-si Fo-o-dAI Re-scue, 
+@ via @@1 b=4779 p=0 d=22934521
+@@3: line 2.0 t=27815370 -> @@1
+khu-sus-nya 
+@ via @@1 b=1 p=0 d=10121
+@ via @@2 b=485 p=0 d=245025
+@@4: line 2.0 t=250650 -> @@2
+pa-da 
+@ via @@2 b=0 p=0 d=100
+@@5: line 2.2 t=5725 -> @@2
+Mo-dul Kon-fi-gu-ra-si Pu-sat (Admin) dan Das-bor Dam-pak So-si-al 
+@ via @@3 b=2809 p=0 d=7946761
+@@6: line 3.0 t=35762131 -> @@3
+(SROI), 
+@ via @@3 b=10 p=0 d=10400
+@ via @@4 b=5563 p=0 d=31058329
+@@7: line 3.2 t=27825770 -> @@3
+mam-pu 
+@ via @@4 b=204 p=0 d=45796
+@ via @@5 b=2689 p=0 d=7294601
+@@8: line 3.0 t=296446 -> @@4
+ber-o-pe-ra-si 
+@ via @@5 b=23 p=0 d=1089
+@@9: line 3.3 t=6814 -> @@5
+se-la-ras de-ngan spe-si-fi-ka-si dan per-an-cang-an fung-sio-nal-nya. 
+@ via @@6 b=76 p=0 d=7396
+@ via @@7 b=7869 p=0 d=62088641
+@@10: line 4.1 t=35769527 -> @@6
+Pro-ses 
+@ via @@7 b=116 p=0 d=25876
+@ via @@8 b=4569 p=0 d=20967241
+@@11: line 4.0 t=21263687 -> @@8
+eva-lu-a-si 
+@ via @@8 b=73 p=0 d=6889
+@ via @@9 b=7777 p=0 d=60647369
+@@12: line 4.1 t=303335 -> @@8
+ki-ner-ja 
+@ via @@9 b=607 p=0 d=390689
+@@13: line 4.0 t=397503 -> @@9
+da-lam 
+@ via @@9 b=0 p=0 d=100
+@@14: line 4.2 t=6914 -> @@9
+pe-ngem-bang-an pla-tform ini di-ti-tik-be-ratk-an pa-da 
+@ via @@10 b=4441 p=0 d=19811401
+@@15: line 5.0 t=55580928 -> @@10
+em-pat 
+@ via @@10 b=153 p=0 d=26569
+@ via @@11 b=4981 p=0 d=24910081
+@@16: line 5.0 t=35796096 -> @@10
+pa-ra-me-ter 
+@ via @@11 b=0 p=0 d=10100
+@ via @@12 b=2799 p=0 d=7890481
+@@17: line 5.0 t=8193816 -> @@12
+fun-da-men-tal, 
+@ via @@13 b=93 p=0 d=10609
+@ via @@14 b=4995 p=0 d=25060025
+@@18: line 5.1 t=408112 -> @@13
+me-li-pu-ti: 
+@ via @@14 b=0 p=0 d=100
+@@19: line 5.2 t=7014 -> @@14
+fung-sio-na-li-tas an-tar-mu-ka per-ang-kat lu-nak, 
+@ via @@15 b=574 p=0 d=341056
+@@20: line 6.0 t=55921984 -> @@15
+ke-an-dal-an 
+@ via @@16 b=11 p=0 d=10441
+@ via @@17 b=8094 p=0 d=65674816
+@@21: line 6.2 t=35806537 -> @@16
+ser-ta 
+@ via @@17 b=977 p=0 d=974169
+@@22: line 6.0 t=9167985 -> @@17
+sta-bi-li-tas 
+@ via @@18 b=4556 p=0 d=20848356
+@@23: line 6.0 t=21256468 -> @@18
+ja-lur 
+@ via @@18 b=477 p=0 d=237169
+@@24: line 6.0 t=645281 -> @@18
+ko-mu-ni-ka-si 
+@ via @@19 b=131 p=0 d=29881
+@@25: line 6.0 t=36895 -> @@19
+da-ta (ter-u-ta-ma in-te-gra-si Go-o-gle Ge-mi-ni 
+@ via @@20 b=618 p=0 d=394384
+@@26: line 7.0 t=56316368 -> @@20
+API), 
+@ via @@20 b=0 p=0 d=10100
+@ via @@21 b=3291 p=0 d=10906601
+@@27: line 7.0 t=46713138 -> @@21
+ting-kat 
+@ via @@21 b=65 p=0 d=5625
+@ via @@22 b=1648 p=0 d=2748964
+@@28: line 7.0 t=11916949 -> @@22
+res-pon-si-vi-tas 
+@ via @@23 b=235 p=0 d=60025
+@ via @@24 b=3375 p=0 d=11458225
+@@29: line 7.0 t=12103506 -> @@24
+ke-a-man-an 
+@ via @@24 b=44 p=0 d=12916
+@ via @@25 b=5245 p=0 d=27615025
+@@30: line 7.3 t=658197 -> @@24
+sis-tem, 
+@ via @@25 b=120 p=0 d=16900
+@@31: line 7.0 t=53795 -> @@25
+dan 
+@ via @@25 b=8 p=0 d=10324
+@@32: line 7.2 t=47219 -> @@25
+me-trik ke-ce-pat-an mu-at ha-lam-an 
+@ via @@26 b=892 p=0 d=813604
+@ via @@27 b=7944 p=0 d=63266116
+@@33: line 8.0 t=57129972 -> @@26
+(pa-ge 
+@ via @@26 b=2 p=0 d=10144
+@ via @@27 b=866 p=0 d=767376
+@@34: line 8.0 t=47480514 -> @@27
+lo-ad). 
+@ via @@27 b=1 p=0 d=10121
+@ via @@28 b=1371 p=0 d=1907161
+@@35: line 8.0 t=13824110 -> @@28
+Ru-ang 
+@ via @@28 b=1 p=0 d=10121
+@ via @@29 b=4156 p=0 d=17355556
+@@36: line 8.2 t=11927070 -> @@28
+ling-kup 
+@ via @@29 b=265 p=0 d=75625
+@ via @@30 b=6641 p=0 d=44245801
+@@37: line 8.0 t=12179131 -> @@29
+pe-ngu-kur-an 
+@ via @@30 b=105 p=0 d=23225
+@ via @@31 b=2653 p=0 d=7091569
+@@38: line 8.0 t=681422 -> @@30
+ki-ner-ja 
+@ via @@31 b=117 p=0 d=16129
+@ via @@32 b=1028 p=0 d=1087444
+@@39: line 8.0 t=69924 -> @@31
+ini 
+@ via @@31 b=3 p=0 d=10169
+@ via @@32 b=204 p=0 d=55796
+@@40: line 8.2 t=63964 -> @@31
+ti-dak 
+@ via @@32 b=0 p=0 d=100
+@@41: line 8.2 t=47319 -> @@32
+me-li-batk-an pe-ngu-ji-an 
+@ via @@33 b=1571 p=0 d=2499561
+@@42: line 9.0 t=59629533 -> @@33
+ke-ta-han-an 
+@ via @@33 b=2 p=0 d=10144
+@ via @@34 b=275 p=0 d=81225
+@ via @@35 b=6910 p=0 d=47886400
+@@43: line 9.0 t=47561739 -> @@34
+per-ang-kat 
+@ via @@35 b=16 p=0 d=676
+@ via @@36 b=2680 p=0 d=7246100
+@@44: line 9.1 t=13824786 -> @@35
+ke-ras 
+@ via @@36 b=78 p=0 d=7744
+@ via @@37 b=5446 p=0 d=29767936
+@@45: line 9.1 t=11934814 -> @@36
+fi-sik 
+@ via @@37 b=695 p=0 d=497025
+@@46: line 9.0 t=12676156 -> @@37
+(ha-rdwa-re) 
+@ via @@38 b=1009 p=0 d=1038361
+@@47: line 9.0 t=1719783 -> @@38
+di 
+@ via @@38 b=201 p=0 d=44521
+@ via @@39 b=4832 p=0 d=23444964
+@@48: line 9.0 t=725943 -> @@38
+la-pang-an, 
+@ via @@39 b=16 p=0 d=676
+@ via @@40 b=386 p=0 d=166816
+@ via @@41 b=4832 p=0 d=23454964
+@@49: line 9.1 t=70600 -> @@39
+me-la-ink-an 
+@ via @@41 b=0 p=0 d=100
+@@50: line 9.2 t=47419 -> @@41
+di-ba-ta-si se-ca-ra 
+@ via @@42 b=764 p=0 d=599076
+@@51: line 10.0 t=60228609 -> @@42
+ke-tat 
+@ via @@42 b=5 p=0 d=10225
+@ via @@43 b=4254 p=0 d=18181696
+@@52: line 10.2 t=59639758 -> @@42
+pa-da 
+@ via @@43 b=546 p=0 d=309136
+@@53: line 10.0 t=47870875 -> @@43
+do-ma-in 
+@ via @@43 b=58 p=0 d=14624
+@ via @@44 b=1337 p=0 d=1814409
+@ via @@45 b=8075 p=0 d=65367225
+@@54: line 10.0 t=15639195 -> @@44
+re-ka-ya-sa 
+@ via @@44 b=0 p=0 d=100
+@ via @@45 b=314 p=0 d=104976
+@ via @@46 b=2818 p=0 d=7997584
+@@55: line 10.0 t=12039790 -> @@45
+per-ang-kat 
+@ via @@46 b=0 p=0 d=10100
+@ via @@47 b=3780 p=0 d=14364100
+@@56: line 10.2 t=12686256 -> @@46
+lu-nak 
+@ via @@47 b=287 p=0 d=88209
+@ via @@48 b=1242 p=0 d=1567504
+@@57: line 10.0 t=1807992 -> @@47
+de-ngan 
+@ via @@48 b=0 p=0 d=10100
+@ via @@49 b=2980 p=0 d=8940100
+@@58: line 10.2 t=736043 -> @@48
+rin-ci-an 
+@ via @@49 b=46 p=0 d=3136
+@ via @@50 b=7030 p=0 d=49571600
+@@59: line 10.1 t=73736 -> @@49
+stan-dar 
+@ via @@50 b=427 p=0 d=200969
+@@60: line 10.0 t=248388 -> @@50
+pe-ngu-ji-an 
+@ via @@51 b=3343 p=0 d=11242609
+@@61: line 11.0 t=71471218 -> @@51
+se-ba-gai 
+@ via @@51 b=40 p=0 d=2500
+@ via @@52 b=1448 p=0 d=2135764
+@@62: line 11.1 t=60231109 -> @@51
+ber-i-kut: 
+@ via @@52 b=0 p=0 d=100
+@ via @@53 b=359 p=0 d=136161
+@@63: line 11.0 t=48007036 -> @@53
+ 
+@\par via @@52 b=22 p=-10000 d=1024
+@\par via @@53 b=0 p=-10000 d=10100
+@\par via @@54 b=0 p=-10000 d=10100
+@\par via @@55 b=0 p=-10000 d=10100
+@\par via @@56 b=0 p=-10000 d=100
+@\par via @@57 b=0 p=-10000 d=10100
+@\par via @@58 b=0 p=-10000 d=100
+@\par via @@59 b=0 p=-10000 d=100
+@\par via @@60 b=0 p=-10000 d=10100
+@\par via @@61 b=0 p=-10000 d=10100
+@\par via @@62 b=0 p=-10000 d=100
+@@64: line 11.2- t=73836 -> @@59
+
 @firstpass
 [] 
 @\par via @@0 b=0 p=-10000 d=100
@@ -9289,13 +10162,11 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
-[]\T1/ptm/m/n/12 16|
+[]\T1/ptm/m/n/12 17|
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
- [16
-
-]
+ [17]
 @firstpass
 |\T1/ptm/b/n/24.88 DAFTAR 
 @ via @@0 b=0 p=0 d=100
@@ -9560,11 +10431,11 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
-[]\T1/ptm/m/n/12 17|
+[]\T1/ptm/m/n/12 18|
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
-[17
+[18
 
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
@@ -9759,11 +10630,11 @@ Package pdftex.def Info: image/Logo_Universitas_Telkom_Horizontal.png  used on i
 @@1: line 1.2- t=100 -> @@0
 
 @firstpass
-[]\T1/ptm/m/n/12 18|
+[]\T1/ptm/m/n/12 19|
 @\par via @@0 b=0 p=-10000 d=100
 @@1: line 1.2- t=100 -> @@0
 
-[18] (./main.aux)
+[19] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 545490B1853E9CBED97D6E1492D5E5B5;3415.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -9771,18 +10642,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31940 strings out of 476041
- 609826 string characters out of 5793174
+ 31980 strings out of 476041
+ 611859 string characters out of 5793174
  1863388 words of memory out of 6000000
- 51773 multiletter control sequences out of 15000+600000
+ 51803 multiletter control sequences out of 15000+600000
  561284 words of font info for 82 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  89i,17n,83p,2025b,2378s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (29 pages, 28753406 bytes).
+Output written on main.pdf (30 pages, 30954715 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 96 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
